@@ -1,10 +1,8 @@
 import React from 'react'
-import avatarImage from  "../assets/images/corporate/carouselImageone.jpg";
-import aboutImage1 from "../assets/images/corporate/carouselImagetwo.jpg";
-import aboutImage2 from '../assets/images/corporate/carouselImagethree.jpg'
-// import carouselImageone from "../assets/images/corporate/carouselImageone.jpg";
-// import carouselImagetwo from "../assets/images/corporate/carouselImagetwo.jpg";
-// import carouselimagethree from '../assets/images/corporate/carouselImagethree.jpg'
+import avatarImage from  "../assets/images/corporate/carouselimageonec.jpg";
+import aboutImage1 from "../assets/images/corporate/carouselimagetwoc.jpg";
+import aboutImage2 from '../assets/images/corporate/carouselimagethreec.jpg'
+
 
 function AboutSection() {
   return (
