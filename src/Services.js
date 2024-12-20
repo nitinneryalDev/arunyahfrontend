@@ -1,42 +1,8 @@
 import React from "react";
-import construction from "./assets/images/Construction.jpg";
-import tour from "./assets/images/carouselimagethree.jpg";
-import dairy from "./assets/images/dairy.jpg";
-import agriculture from "./assets/images/agriculture.jpg";
-import itservices from "./assets/images/itservices.jpg";
-import transportion from "./assets/images/transportion.jpg";
-import realestate from "./assets/images/realestate.jpg";
-import importexport from "./assets/images/importexport.jpg";
+
 import data from "./db.json";
 
 const Services = () => {
-  const featuresImages = [
-    {
-      image: tour, // Replace with your dynamic import or path
-    },
-    {
-      image: construction, // Replace with your dynamic import or path
-    },
-    {
-      image: dairy, // Replace with your dynamic import or path
-    },
-    {
-      image: agriculture, // Replace with your dynamic import or path
-    },
-    {
-      image: itservices, // Replace with your dynamic import or path
-    },
-    {
-      image: transportion, // Replace with your dynamic import or path
-    },
-    {
-      image: realestate, // Replace with your dynamic import or path
-    },
-    {
-      image: importexport, // Replace with your dynamic import or path
-    },
-  ];
-
   return (
     <div
       className="page-title aos-init  position-relative aos-animate"
@@ -82,7 +48,7 @@ const Services = () => {
                 molestias excepturi sint occaecati cupiditate non provident
               </p>
               <a
-                href="#"
+                href="/"
                 className="readmore stretched-link text-decoration-none"
               >
                 <span>Learn More</span>
@@ -106,7 +72,7 @@ const Services = () => {
                 aliquip ex ea commodo consequat tarad limino ata
               </p>
               <a
-                href="#"
+                href="/"
                 className="readmore stretched-link text-decoration-none"
               >
                 <span>Learn More</span>
@@ -130,7 +96,7 @@ const Services = () => {
                 cillum dolore eu fugiat nulla pariatur
               </p>
               <a
-                href="#"
+                href="/"
                 className="readmore stretched-link text-decoration-none"
               >
                 <span className="text-decoration-none">Learn More</span>
@@ -322,15 +288,14 @@ const Services = () => {
                 className="col-md-5 d-flex align-items-center"
                 data-aos="zoom-out"
                 data-aos-delay={100 * (index + 1)}
-              > 
+              >
                 <img
-                  src={`/${feature.image}`}  
-                  className="img-fluid"
+                  src={require(`${feature.image}`)}
+                  className="img-fluid rounded-4"
                   alt={`Feature ${feature.id}`}
                 />
-      
               </div>
-              
+
               <div
                 className="col-md-7"
                 data-aos="fade-up"

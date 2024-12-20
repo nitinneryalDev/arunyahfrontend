@@ -1,5 +1,5 @@
 import React from 'react'
-import howItWorks from "../assets/images/corporate/howItWorkstwo.jpg" 
+import howItWorks from "../assets/images/corporate/howitworkstwo.jpg" 
 
 
 function PlaceYouDeserve() {

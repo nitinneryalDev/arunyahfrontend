@@ -1,150 +1,147 @@
 {
- "featureData": [
-    {
-      "title": "Use On Any Device",
-      "description": "Our platform adapts seamlessly to any device, ensuring a smooth user experience regardless of screen size.",
-      "icon": "bi bi-display",
-      "animation": "fade-right",
-      "delay": 200
-    },
-    {
-      "title": "Feather Icons",
-      "description": "Beautiful and lightweight feather icons are included to enhance the visual appeal of your app.",
-      "icon": "bi bi-feather",
-      "animation": "fade-right",
-      "delay": 300
-    },
-    {
-      "title": "Retina Ready",
-      "description": "Experience crystal-clear visuals with retina-ready designs optimized for high-resolution screens.",
-      "icon": "bi bi-eye",
-      "animation": "fade-right",
-      "delay": 400
-    },
-    {
-      "title": "W3c Valid Code",
-      "description": "Adhere to modern web standards with W3C-validated, clean, and error-free code.",
-      "icon": "bi bi-code-square",
-      "animation": "fade-left",
-      "delay": 200
-    },
-    {
-      "title": "Fully Responsive",
-      "description": "Our designs adapt flawlessly to any screen size, offering users an unparalleled browsing experience.",
-      "icon": "bi bi-phone",
-      "animation": "fade-left",
-      "delay": 300
-    },
-    {
-      "title": "Browser Compatibility",
-      "description": "Enjoy consistent performance across all modern browsers, ensuring reliability for every user.",
-      "icon": "bi bi-browser-chrome",
-      "animation": "fade-left",
-      "delay": 400
-    }
-  ] ,
-
-
-
-    "features": [
+    "featureData": [
         {
-            "id": 1,
-            "image": "./assets/images/carouselimageone.jpg",
-            "name": "Tour & Travel",
-            "href": "/industries/tour-travel",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "points": [
-                "Ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Duis aute irure dolor in reprehenderit in voluptate velit.",
-                "Ullam est qui quos consequatur eos accusamus."
-            ],
-            "reverse": false
+            "title": "Use On Any Device",
+            "description": "Our platform adapts seamlessly to any device, ensuring a smooth user experience regardless of screen size.",
+            "icon": "bi bi-display",
+            "animation": "fade-right",
+            "delay": 200
         },
         {
-            "id": 2,
-            "image": "construction",
-            "name": "Construction",
-            "href": "/industries/construction",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "extraText": "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "reverse": true
+            "title": "Feather Icons",
+            "description": "Beautiful and lightweight feather icons are included to enhance the visual appeal of your app.",
+            "icon": "bi bi-feather",
+            "animation": "fade-right",
+            "delay": 300
         },
         {
-            "id": 3,
-            "image": "dairy",
-            "name": "Dairy Farm",
-            "href": "/industries/dairy-farm",
-            "description": "Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus quia minima quod. Sunt saepe odit aut quia voluptatem hic voluptas dolor doloremque.",
-            "points": [
-                "Ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Duis aute irure dolor in reprehenderit in voluptate velit.",
-                "Facilis ut et voluptatem aperiam. Autem soluta ad fugiat."
-            ],
-            "reverse": false
+            "title": "Retina Ready",
+            "description": "Experience crystal-clear visuals with retina-ready designs optimized for high-resolution screens.",
+            "icon": "bi bi-eye",
+            "animation": "fade-right",
+            "delay": 400
         },
         {
-            "id": 4,
-            "image": "agriculture",
-            "name": "Agriculture",
-            "href": "/industries/agriculture",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "extraText": "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "reverse": true
+            "title": "W3c Valid Code",
+            "description": "Adhere to modern web standards with W3C-validated, clean, and error-free code.",
+            "icon": "bi bi-code-square",
+            "animation": "fade-left",
+            "delay": 200
         },
         {
-            "id": 5,
-            "image": "itservices",
-            "name": "I.T Services",
-            "href": "/industries/it-services",
-            "description": "Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus quia minima quod. Sunt saepe odit aut quia voluptatem hic voluptas dolor doloremque.",
-            "points": [
-                "Ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Duis aute irure dolor in reprehenderit in voluptate velit.",
-                "Facilis ut et voluptatem aperiam. Autem soluta ad fugiat."
-            ],
-            "reverse": false
+            "title": "Fully Responsive",
+            "description": "Our designs adapt flawlessly to any screen size, offering users an unparalleled browsing experience.",
+            "icon": "bi bi-phone",
+            "animation": "fade-left",
+            "delay": 300
         },
         {
-            "id": 6,
-            "image": "transportion",
-            "name": "Logistics",
-            "href": "/industries/logistics",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "extraText": "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "reverse": true
-        },
-        {
-            "id": 7,
-            "image": "realestate",
-            "name": "Real Estate",
-            "href": "/industries/real-estate",
-            "description": "Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus quia minima quod. Sunt saepe odit aut quia voluptatem hic voluptas dolor doloremque.",
-            "points": [
-                "Ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Duis aute irure dolor in reprehenderit in voluptate velit.",
-                "Facilis ut et voluptatem aperiam. Autem soluta ad fugiat."
-            ],
-            "reverse": false
-        },
-        {
-            "id": 8,
-            "image": "importexport",
-            "name": "Import Export",
-            "href": "/industries/import-export",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "extraText": "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "reverse": true
-        },
-        {
-            "id": 9,
-            "image": "importexport",
-            "name": "Education",
-            "href": "/industries/education",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "extraText": "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "reverse": false
+            "title": "Browser Compatibility",
+            "description": "Enjoy consistent performance across all modern browsers, ensuring reliability for every user.",
+            "icon": "bi bi-browser-chrome",
+            "animation": "fade-left",
+            "delay": 400
         }
     ],
+ "features": [
+    {
+      "id": 1,
+      "image": "./assets/images/carouselimageone.jpg",
+      "name": "Tour & Travel",
+      "href": "/industries/tour-travel",
+      "description": "Explore a wide range of tour and travel services designed to make your journey more comfortable and memorable. From flight bookings to guided tours, we provide a complete travel experience.",
+      "points": [
+        "Ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Duis aute irure dolor in reprehenderit in voluptate velit.",
+        "Ullam est qui quos consequatur eos accusamus."
+      ],
+      "reverse": false
+    },
+    {
+      "id": 2,
+      "image": "./assets/images/Construction.jpg",
+      "name": "Construction",
+      "href": "/industries/construction",
+      "description": "Building the future with state-of-the-art construction techniques and top-tier materials. Our construction services span residential, commercial, and infrastructure development.",
+      "extraText": "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "reverse": true
+    },
+    {
+      "id": 3,
+      "image": "./assets/images/dairy.jpg",
+      "name": "Dairy Farm",
+      "href": "/industries/dairy-farm",
+      "description": "Our dairy farm provides high-quality, fresh dairy products directly from the farm to your table. Committed to sustainability and quality, we ensure each product meets the highest standards.",
+      "points": [
+        "Ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Duis aute irure dolor in reprehenderit in voluptate velit.",
+        "Facilis ut et voluptatem aperiam. Autem soluta ad fugiat."
+      ],
+      "reverse": false
+    },
+    {
+      "id": 4,
+      "image": "./assets/images/agriculture.jpg",
+      "name": "Agriculture",
+      "href": "/industries/agriculture",
+      "description": "Revolutionizing agriculture with innovative farming practices, we focus on enhancing crop production while promoting environmental sustainability.",
+      "extraText": "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "reverse": true
+    },
+    {
+      "id": 5,
+      "image": "./assets/images/itservices.jpg",
+      "name": "I.T Services",
+      "href": "/industries/it-services",
+      "description": "Providing cutting-edge IT solutions, from software development to IT consulting, we help businesses navigate and thrive in the digital landscape.",
+      "points": [
+        "Ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Duis aute irure dolor in reprehenderit in voluptate velit.",
+        "Facilis ut et voluptatem aperiam. Autem soluta ad fugiat."
+      ],
+      "reverse": false
+    },
+    {
+      "id": 6,
+      "image": "./assets/images/transportion.jpg",
+      "name": "Logistics",
+      "href": "/industries/logistics",
+      "description": "Our logistics services are tailored to meet the needs of businesses looking for efficient and reliable transportation, warehousing, and distribution solutions.",
+      "extraText": "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "reverse": true
+    },
+    {
+      "id": 7,
+      "image": "./assets/images/realestate.jpg",
+      "name": "Real Estate",
+      "href": "/industries/real-estate",
+      "description": "We specialize in residential and commercial real estate, providing personalized services to buyers, sellers, and investors. Our goal is to help clients find their ideal property.",
+      "points": [
+        "Ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Duis aute irure dolor in reprehenderit in voluptate velit.",
+        "Facilis ut et voluptatem aperiam. Autem soluta ad fugiat."
+      ],
+      "reverse": false
+    },
+    {
+      "id": 8,
+      "image": "./assets/images/importexport.jpg",
+      "name": "Import Export",
+      "href": "/industries/import-export",
+      "description": "Facilitating seamless import and export services to help businesses expand globally. We offer logistics, documentation, and compliance solutions to ease international trade.",
+      "extraText": "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "reverse": true
+    },
+    {
+      "id": 9,
+      "image": "./assets/images/education.jpg",
+      "name": "Education",
+      "href": "/industries/education",
+      "description": "Providing quality educational services ranging from online courses to in-person training programs. We focus on creating learning environments that foster growth and development.",
+      "extraText": "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "reverse": false
+    }
+  ] ,
     "footerLinks": [
         {
             "name": "Home",

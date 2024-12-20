@@ -1,7 +1,7 @@
 import React from 'react'
-import carouselImageone from "../assets/images/corporate/carouselImageone.jpg";
-import carouselImagetwo from "../assets/images/corporate/carouselImagetwo.jpg";
-import carouselimagethree from '../assets/images/corporate/carouselImagethree.jpg'
+import carouselimageone from "../assets/images/corporate/carouselimageonec.jpg";
+import carouselimagetwo from "../assets/images/corporate/carouselimagetwoc.jpg";
+import carouselimagethree from '../assets/images/corporate/carouselimagethreec.jpg'
 
 
 function HeroImage() {
@@ -9,7 +9,7 @@ function HeroImage() {
   const carouselData = [
     {
       id: 1,
-      image: carouselImageone, // Replace with your actual image import or URL
+      image: carouselimageone, // Replace with your actual image import or URL
       title: "Innovative Web Development Solutions.",
       description:
         "Arunyah delivers tailored web development solutions using advanced technologies to meet your business needs, create a strong online presence, and drive lasting growth and success.",
@@ -18,7 +18,7 @@ function HeroImage() {
     },
     {
       id: 2,
-      image: carouselImagetwo, // Replace with your actual image import or URL
+      image: carouselimagetwo, // Replace with your actual image import or URL
       title: "Custom Web Development Services For Better Websites",
       description:
         "Crafted with Intelligence, Precision, and Style. We design captivating brands, websites, and digital experiences that make a lasting impression.",
