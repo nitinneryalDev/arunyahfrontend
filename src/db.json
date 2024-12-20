@@ -1,0 +1,218 @@
+{
+ "featureData": [
+    {
+      "title": "Use On Any Device",
+      "description": "Our platform adapts seamlessly to any device, ensuring a smooth user experience regardless of screen size.",
+      "icon": "bi bi-display",
+      "animation": "fade-right",
+      "delay": 200
+    },
+    {
+      "title": "Feather Icons",
+      "description": "Beautiful and lightweight feather icons are included to enhance the visual appeal of your app.",
+      "icon": "bi bi-feather",
+      "animation": "fade-right",
+      "delay": 300
+    },
+    {
+      "title": "Retina Ready",
+      "description": "Experience crystal-clear visuals with retina-ready designs optimized for high-resolution screens.",
+      "icon": "bi bi-eye",
+      "animation": "fade-right",
+      "delay": 400
+    },
+    {
+      "title": "W3c Valid Code",
+      "description": "Adhere to modern web standards with W3C-validated, clean, and error-free code.",
+      "icon": "bi bi-code-square",
+      "animation": "fade-left",
+      "delay": 200
+    },
+    {
+      "title": "Fully Responsive",
+      "description": "Our designs adapt flawlessly to any screen size, offering users an unparalleled browsing experience.",
+      "icon": "bi bi-phone",
+      "animation": "fade-left",
+      "delay": 300
+    },
+    {
+      "title": "Browser Compatibility",
+      "description": "Enjoy consistent performance across all modern browsers, ensuring reliability for every user.",
+      "icon": "bi bi-browser-chrome",
+      "animation": "fade-left",
+      "delay": 400
+    }
+  ] ,
+
+
+
+    "features": [
+        {
+            "id": 1,
+            "image": "./assets/images/carouselimageone.jpg",
+            "name": "Tour & Travel",
+            "href": "/industries/tour-travel",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "points": [
+                "Ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "Duis aute irure dolor in reprehenderit in voluptate velit.",
+                "Ullam est qui quos consequatur eos accusamus."
+            ],
+            "reverse": false
+        },
+        {
+            "id": 2,
+            "image": "construction",
+            "name": "Construction",
+            "href": "/industries/construction",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "extraText": "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "reverse": true
+        },
+        {
+            "id": 3,
+            "image": "dairy",
+            "name": "Dairy Farm",
+            "href": "/industries/dairy-farm",
+            "description": "Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus quia minima quod. Sunt saepe odit aut quia voluptatem hic voluptas dolor doloremque.",
+            "points": [
+                "Ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "Duis aute irure dolor in reprehenderit in voluptate velit.",
+                "Facilis ut et voluptatem aperiam. Autem soluta ad fugiat."
+            ],
+            "reverse": false
+        },
+        {
+            "id": 4,
+            "image": "agriculture",
+            "name": "Agriculture",
+            "href": "/industries/agriculture",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "extraText": "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "reverse": true
+        },
+        {
+            "id": 5,
+            "image": "itservices",
+            "name": "I.T Services",
+            "href": "/industries/it-services",
+            "description": "Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus quia minima quod. Sunt saepe odit aut quia voluptatem hic voluptas dolor doloremque.",
+            "points": [
+                "Ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "Duis aute irure dolor in reprehenderit in voluptate velit.",
+                "Facilis ut et voluptatem aperiam. Autem soluta ad fugiat."
+            ],
+            "reverse": false
+        },
+        {
+            "id": 6,
+            "image": "transportion",
+            "name": "Logistics",
+            "href": "/industries/logistics",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "extraText": "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "reverse": true
+        },
+        {
+            "id": 7,
+            "image": "realestate",
+            "name": "Real Estate",
+            "href": "/industries/real-estate",
+            "description": "Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus quia minima quod. Sunt saepe odit aut quia voluptatem hic voluptas dolor doloremque.",
+            "points": [
+                "Ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "Duis aute irure dolor in reprehenderit in voluptate velit.",
+                "Facilis ut et voluptatem aperiam. Autem soluta ad fugiat."
+            ],
+            "reverse": false
+        },
+        {
+            "id": 8,
+            "image": "importexport",
+            "name": "Import Export",
+            "href": "/industries/import-export",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "extraText": "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "reverse": true
+        },
+        {
+            "id": 9,
+            "image": "importexport",
+            "name": "Education",
+            "href": "/industries/education",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "extraText": "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "reverse": false
+        }
+    ],
+    "footerLinks": [
+        {
+            "name": "Home",
+            "href": "/"
+        },
+        {
+            "name": "About us",
+            "href": "/about"
+        },
+        {
+            "name": "Services",
+            "href": "/services"
+        },
+        {
+            "name": "Terms of service",
+            "href": "/terms"
+        },
+        {
+            "name": "Privacy policy",
+            "href": "/privacy"
+        },
+        {
+            "name": "Career",
+            "href": "/career"
+        }
+    ],
+    "services": [
+        {
+            "name": "Web Design",
+            "href": "/services/web-design"
+        },
+        {
+            "name": "Web Development",
+            "href": "/services/web-development"
+        },
+        {
+            "name": "Product Management",
+            "href": "/services/product-management"
+        },
+        {
+            "name": "Marketing",
+            "href": "/services/marketing"
+        },
+        {
+            "name": "Graphic Design",
+            "href": "/services/graphic-design"
+        }
+    ],
+    "quickLinks": [
+        {
+            "name": "Molestiae accusamus iure",
+            "href": "/link1"
+        },
+        {
+            "name": "Excepturi dignissimos",
+            "href": "/link2"
+        },
+        {
+            "name": "Suscipit distinctio",
+            "href": "/link3"
+        },
+        {
+            "name": "Dilecta",
+            "href": "/link4"
+        },
+        {
+            "name": "Sit quas consectetur",
+            "href": "/link5"
+        }
+    ]
+}
