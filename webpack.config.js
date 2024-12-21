@@ -51,6 +51,8 @@ module.exports = {
     historyApiFallback: true, // Redirects all 404s to index.html for React Router
     port: 3001, // Development server port
     open: true, // Automatically opens the app in the default browser
+   allowedHosts: ['20.192.98.162'],
+
   },
   mode: "development", // Sets development mode
 };
