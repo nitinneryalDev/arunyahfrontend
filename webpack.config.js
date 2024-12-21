@@ -39,6 +39,8 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: "./src/index.html", // HTML template for the application
+      favicon: './src/assets/images/logo.jpg', // Path to your favicon
+
     }),
   ],
   devServer: {
