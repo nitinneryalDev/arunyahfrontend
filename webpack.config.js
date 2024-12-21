@@ -52,8 +52,6 @@ module.exports = {
     port: 3001, // Development server port
     open: true, // Automatically opens the app in the default browser
     allowedHosts: ['localhost', '127.0.0.1', '20.192.98.162'],
-
-
   },
   mode: "development", // Sets development mode
 };
