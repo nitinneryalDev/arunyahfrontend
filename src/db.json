@@ -1,54 +1,292 @@
 {
-    "featureData": [
-        {
-            "title": "Use On Any Device",
-            "description": "Our platform adapts seamlessly to any device, ensuring a smooth user experience regardless of screen size.",
-            "icon": "bi bi-display",
-            "animation": "fade-right",
-            "delay": 200
-        },
-        {
-            "title": "Feather Icons",
-            "description": "Beautiful and lightweight feather icons are included to enhance the visual appeal of your app.",
-            "icon": "bi bi-feather",
-            "animation": "fade-right",
-            "delay": 300
-        },
-        {
-            "title": "Retina Ready",
-            "description": "Experience crystal-clear visuals with retina-ready designs optimized for high-resolution screens.",
-            "icon": "bi bi-eye",
-            "animation": "fade-right",
-            "delay": 400
-        },
-        {
-            "title": "W3c Valid Code",
-            "description": "Adhere to modern web standards with W3C-validated, clean, and error-free code.",
-            "icon": "bi bi-code-square",
-            "animation": "fade-left",
-            "delay": 200
-        },
-        {
-            "title": "Fully Responsive",
-            "description": "Our designs adapt flawlessly to any screen size, offering users an unparalleled browsing experience.",
-            "icon": "bi bi-phone",
-            "animation": "fade-left",
-            "delay": 300
-        },
-        {
-            "title": "Browser Compatibility",
-            "description": "Enjoy consistent performance across all modern browsers, ensuring reliability for every user.",
-            "icon": "bi bi-browser-chrome",
-            "animation": "fade-left",
-            "delay": 400
-        }
+
+  "aboutContent":[
+    {
+    "ceo": {
+      "image": "../assets/images/itimages/pexels-product-school-1299359-2678468.jpg",
+      "name": "",
+      "role": "CEO & Founder",
+      "phone": "+91 9206760006"
+    }},{
+    "experience": {
+      "years": 15,
+      "description": "Of experience in business service"
+    }},{
+    "images": {
+      "aboutImage1": "../assets/images/itimages/pexels-hillaryfox-1595385.jpg",
+      "aboutImage2": "../assets/images/itimages/pexels-hillaryfox-1595385.jpg"
+    }
+  }
+]
+,  
+    "DairyImage": [
+      {
+        "img": "./assets/images/carouselimageone.jpg",
+        "name": "Dairy Products"
+      },
+      {
+        "img": "./assets/images/carouselimagetwo.jpg",
+        "name": "Dairy Products"
+      },
+      {
+        "img": "./assets/images/Construction.jpg",
+        "name": "Dairy Products"
+      },
+      {
+        "img": "./assets/images/contactt.jpg",
+        "name": "Dairy Products"
+      }
     ],
- "features": [
+"DairyData": [
+  {
+    "icon": "bi-award-fill",
+    "title": "Uncompromised Quality",
+    "text": "Our dairy products are crafted with the highest standards, ensuring exceptional quality in every bite. From sourcing to packaging, we maintain a commitment to excellence."
+  },
+  {
+    "icon": "bi-droplet-fill",
+    "title": "Fresh and Pure",
+    "text": "Our products are made from the freshest milk, ensuring a pure and wholesome experience. Each item is free from artificial additives and preservatives, preserving its natural goodness."
+  },
+  {
+    "icon": "bi-1-circle",
+    "title": "Nutritional Value",
+    "text": "Packed with essential nutrients like calcium, protein, and vitamins, our dairy products are designed to support your health and well-being every day."
+  }
+],
+  "TourimsData": [
+    {
+      "id": 1,
+      "data": "2456 Stays",
+      "time": "9:45 AM",
+      "title": "Shimla",
+      "description": "A popular hill station and capital of Himachal Pradesh, known for its colonial architecture, pleasant climate, and scenic beauty. It is a major tourist destination in North India.",
+      "img": "./assets/images/carouselimagetwo.jpg",
+      "delay": 100,
+      "author": "Rahul"
+    },
+    {
+      "id": 2,
+      "data": "95678 Stays",
+      "time": "9:45 AM",
+      "title": "Kullu Manali",
+      "description": "Two famous destinations in Himachal Pradesh often mentioned together. Kullu is known for its valley of flowers, temples, and cultural significance, while Manali is renowned for its adventure sports, snow-capped mountains, and picturesque views.",
+      "img": "./assets/images/carouselimagethree.jpg",
+      "delay": 200,
+      "author": "Rahul"
+    },
+    {
+      "id": 3,
+      "data": "945 Stays",
+      "time": "9:45 AM",
+      "title": "Dharamshala",
+      "description": "A serene destination, home to the Dalai Lama and known for its Tibetan culture, monasteries, and beautiful landscapes. It is a peaceful retreat surrounded by the Dhauladhar mountains.",
+      "img": "./assets/images/dharmshala.jpg",
+      "delay": 300,
+      "author": "Rahul"
+    },
+    {
+      "id": 4,
+      "data": "7892 Stays",
+      "time": "9:45 AM",
+      "title": "Leh Laddakh",
+      "description": "A high-altitude region famous for its barren yet breathtaking landscapes, monasteries, and adventurous routes like Pangong Lake, Nubra Valley, and the Khardung La Pass. It is a must-visit for bikers and nature enthusiasts.",
+      "img": "./assets/images/ladakh.jpg",
+      "delay": 400,
+      "author": "Rahul"
+    },
+    {
+      "id": 5,
+      "data": "43675 Stays",
+      "time": "9:45 AM",
+      "title": "Kasol",
+      "description": "A small village in Himachal Pradesh often referred to as the Mini Israel of India because of its popularity among Israeli tourists. It is known for its riverside camping, trekking, and laid-back vibe.",
+      "img": "./assets/images/kasol.jpg",
+      "delay": 500,
+      "author": "Rahul"
+    },
+    {
+      "id": 6,
+      "data": "2345 Stays",
+      "time": "9:45 AM",
+      "title": "Chamba",
+      "description": "A quaint town in Himachal Pradesh known for its ancient temples, local art, and cultural festivals. It is located near the Ravi River and offers a unique blend of history and natural beauty.",
+      "img": "./assets/images/chamba.jpg",
+      "delay": 600,
+      "author": "Rahul"
+    }
+  ],
+  "blogData":[
+    {
+      "id": 1,
+      "data": "2023-11-28",
+      "time": "14:32 ",
+      "title": "Warehousing",
+      "description": "Discover the latest trends in warehouse automation and how they're revolutionizing supply chain management. Learn about the benefits of implementing advanced warehouse technologies, such as robotics and AI.",
+      "img": "./assets/images/warehouse.jpg",
+      "delay": 100,
+      "author": "Gaurav Choudary"
+  },
+  {
+      "id": 2,
+      "data": "2024-01-15",
+      "time": "10:45 PM",
+      "title": "Logistics",
+      "description": "Explore the challenges and opportunities in global logistics. We delve into the impact of e-commerce on supply chain management and discuss strategies for optimizing logistics operations.",
+      "img": "./assets/images/transportion.jpg",
+      "delay": 200,
+      "author": "Satyam Ansari"
+  },
+    {
+      "id": 3,
+      "data": "23/12/2024",
+      "time": "9:45 AM",
+      "title": "Dairy Products in Our Diet",
+      "description": "Dairy products are an essential part of a balanced diet, providing vital nutrients such as calcium, protein, and vitamins. These foods, derived from milk, include a wide range of products like milk, cheese, yogurt, butter, and cream.",
+      "img": "./assets/images/chees.jpg",
+      "delay": 300,
+      "author": "Rajat Mahajan"
+    },
+    {
+      "id": 2,
+      "data": "2024-01-15",
+      "time": "7:42 PM",
+      "title": "IT Trends Shaping the Future",
+      "description": "IT is rapidly evolving with key trends like AI/ML, cloud computing, and 5G driving innovation. Cybersecurity threats are increasing, emphasizing the need for robust defenses. The IoT, edge computing, and blockchain are transforming industries, while quantum computing holds immense potential for future breakthroughs.",
+      "img": "./assets/images/itimages/pexels-hillaryfox-1595385.jpg",
+      "delay": 200,
+      "author": "Sabhya Thapa"
+  },
+    {
+      "id": 5,
+      "data": "23/12/2024",
+      "time": "9:45 AM",
+      "title": "More Than Just a Pretty Cover",
+      "description": "Packaging is more than just a container; it's a key aspect of a product's success. It protects the product, enhances its appeal, and conveys important information to consumers. Sustainable packaging options are gaining importance as consumers prioritize eco-friendly choices.",
+      "img": "./assets/images/packaging.jpg",
+      "delay": 500,
+      "author": "Rahul Kapalta"
+    },
+    {
+      "id": 6,
+      "data": "23/12/2024",
+      "time": "9:45 AM",
+      "title": "Cultivating the Future of Food",
+      "description": "Agro farming, a sustainable and eco-friendly approach to agriculture, is gaining traction worldwide. It focuses on integrating agricultural practices with ecological principles to create a balanced and sustainable ecosystem.",
+      "img": "./assets/images/organic.jpg",
+      "delay": 600,
+      "author": "Dinesh"
+    }
+  ],
+  "RouteData": [
+    {
+      "path": "/blog",
+      "title": "Blogs",
+      "description": "Esse dolorum voluptatum ullam est sint nemo et est ipsa porro placeat quibusdam quia assumenda numquam molestias.",
+      "breadcrumb": "Blogs"
+    },
+    {
+      "path": "/services",
+      "title": "Services",
+      "description": "Explore our wide range of services designed to meet your needs.",
+      "breadcrumb": "Services"
+    },
+    {
+      "path": "/about",
+      "title": "About Us",
+      "description": "Learn more about our story, mission, and values.",
+      "breadcrumb": "About Us"
+    },
+    {
+      "path": "/",
+      "title": "Home",
+      "description": "Learn more about our story, mission, and values.",
+      "breadcrumb": "Home"
+    },
+    {
+      "path": "/contact",
+      "title": "Contact",
+      "description": "Learn more about our story, mission, and values.",
+      "breadcrumb": "contact"
+    }
+  ],
+  "carouselData": [
+    {
+      "id": 1,
+      "image": "assets/images/corporate/carouselimageonec.jpg",
+      "title": "Innovative Web Development Solutions.",
+      "description": "Arunyah delivers tailored web development solutions using advanced technologies to meet your business needs, create a strong online presence, and drive lasting growth and success.",
+      "interval": 10000,
+      "active": true
+    },
+    {
+      "id": 2,
+      "image": "assets/images/corporate/carouselimagethreec.jpg",
+      "title": "Custom Web Development Services For Better Websites",
+      "description": "Crafted with Intelligence, Precision, and Style. We design captivating brands, websites, and digital experiences that make a lasting impression.",
+      "interval": 2000,
+      "active": false
+    },
+    {
+      "id": 3,
+      "image": "assets/images/corporate/carouselimagetwoc.jpg",
+      "title": "Boosting Businesses with Cutting-Edge Digital Solutions",
+      "description": "Partner with us for software development, transforming businesses with innovative solutions, achieving digital goals, and staying competitive in a rapidly evolving world.",
+      "interval": 3000,
+      "active": false
+    }
+  ],
+  "featureData": [
+    {
+      "title": "Use On Any Device",
+      "description": "Our platform adapts seamlessly to any device, ensuring a smooth user experience regardless of screen size.",
+      "icon": "bi bi-display",
+      "animation": "fade-right",
+      "delay": 200
+    },
+    {
+      "title": "Feather Icons",
+      "description": "Beautiful and lightweight feather icons are included to enhance the visual appeal of your app.",
+      "icon": "bi bi-feather",
+      "animation": "fade-right",
+      "delay": 300
+    },
+    {
+      "title": "Retina Ready",
+      "description": "Experience crystal-clear visuals with retina-ready designs optimized for high-resolution screens.",
+      "icon": "bi bi-eye",
+      "animation": "fade-right",
+      "delay": 400
+    },
+    {
+      "title": "W3c Valid Code",
+      "description": "Adhere to modern web standards with W3C-validated, clean, and error-free code.",
+      "icon": "bi bi-code-square",
+      "animation": "fade-left",
+      "delay": 200
+    },
+    {
+      "title": "Fully Responsive",
+      "description": "Our designs adapt flawlessly to any screen size, offering users an unparalleled browsing experience.",
+      "icon": "bi bi-phone",
+      "animation": "fade-left",
+      "delay": 300
+    },
+    {
+      "title": "Browser Compatibility",
+      "description": "Enjoy consistent performance across all modern browsers, ensuring reliability for every user.",
+      "icon": "bi bi-browser-chrome",
+      "animation": "fade-left",
+      "delay": 400
+    }
+  ],
+  "features": [
     {
       "id": 1,
       "image": "./assets/images/carouselimageone.jpg",
       "name": "Tour & Travel",
-      "href": "/industries/tour-travel",
+      "href": "services/tourism",
+      "route": "tourism",
       "description": "Explore a wide range of tour and travel services designed to make your journey more comfortable and memorable. From flight bookings to guided tours, we provide a complete travel experience.",
       "points": [
         "Ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -61,7 +299,8 @@
       "id": 2,
       "image": "./assets/images/Construction.jpg",
       "name": "Construction",
-      "href": "/industries/construction",
+      "href": "services/construction",
+      "route": "construction",
       "description": "Building the future with state-of-the-art construction techniques and top-tier materials. Our construction services span residential, commercial, and infrastructure development.",
       "extraText": "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "reverse": true
@@ -70,7 +309,8 @@
       "id": 3,
       "image": "./assets/images/dairy.jpg",
       "name": "Dairy Farm",
-      "href": "/industries/dairy-farm",
+      "href": "services/dairy",
+      "route": "dairy",
       "description": "Our dairy farm provides high-quality, fresh dairy products directly from the farm to your table. Committed to sustainability and quality, we ensure each product meets the highest standards.",
       "points": [
         "Ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -83,7 +323,8 @@
       "id": 4,
       "image": "./assets/images/agriculture.jpg",
       "name": "Agriculture",
-      "href": "/industries/agriculture",
+      "href": "services/agriculture",
+      "route": "agriculture",
       "description": "Revolutionizing agriculture with innovative farming practices, we focus on enhancing crop production while promoting environmental sustainability.",
       "extraText": "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "reverse": true
@@ -92,7 +333,8 @@
       "id": 5,
       "image": "./assets/images/itservices.jpg",
       "name": "I.T Services",
-      "href": "/industries/it-services",
+      "href": "services/itservices",
+      "route": "itservices",
       "description": "Providing cutting-edge IT solutions, from software development to IT consulting, we help businesses navigate and thrive in the digital landscape.",
       "points": [
         "Ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -105,7 +347,8 @@
       "id": 6,
       "image": "./assets/images/transportion.jpg",
       "name": "Logistics",
-      "href": "/industries/logistics",
+      "href": "services/logistics",
+      "route": "logistics",
       "description": "Our logistics services are tailored to meet the needs of businesses looking for efficient and reliable transportation, warehousing, and distribution solutions.",
       "extraText": "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "reverse": true
@@ -114,7 +357,8 @@
       "id": 7,
       "image": "./assets/images/realestate.jpg",
       "name": "Real Estate",
-      "href": "/industries/real-estate",
+      "href": "services/realestate",
+      "route": "realestate",
       "description": "We specialize in residential and commercial real estate, providing personalized services to buyers, sellers, and investors. Our goal is to help clients find their ideal property.",
       "points": [
         "Ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -127,7 +371,8 @@
       "id": 8,
       "image": "./assets/images/importexport.jpg",
       "name": "Import Export",
-      "href": "/industries/import-export",
+      "href": "services/importexport",
+      "route": "importexport",
       "description": "Facilitating seamless import and export services to help businesses expand globally. We offer logistics, documentation, and compliance solutions to ease international trade.",
       "extraText": "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "reverse": true
@@ -136,80 +381,81 @@
       "id": 9,
       "image": "./assets/images/education.jpg",
       "name": "Education",
-      "href": "/industries/education",
+      "href": "services/education",
+      "route": "education",
       "description": "Providing quality educational services ranging from online courses to in-person training programs. We focus on creating learning environments that foster growth and development.",
       "extraText": "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "reverse": false
     }
-  ] ,
-    "footerLinks": [
-        {
-            "name": "Home",
-            "href": "/"
-        },
-        {
-            "name": "About us",
-            "href": "/about"
-        },
-        {
-            "name": "Services",
-            "href": "/services"
-        },
-        {
-            "name": "Terms of service",
-            "href": "/terms"
-        },
-        {
-            "name": "Privacy policy",
-            "href": "/privacy"
-        },
-        {
-            "name": "Career",
-            "href": "/career"
-        }
-    ],
-    "services": [
-        {
-            "name": "Web Design",
-            "href": "/services/web-design"
-        },
-        {
-            "name": "Web Development",
-            "href": "/services/web-development"
-        },
-        {
-            "name": "Product Management",
-            "href": "/services/product-management"
-        },
-        {
-            "name": "Marketing",
-            "href": "/services/marketing"
-        },
-        {
-            "name": "Graphic Design",
-            "href": "/services/graphic-design"
-        }
-    ],
-    "quickLinks": [
-        {
-            "name": "Molestiae accusamus iure",
-            "href": "/link1"
-        },
-        {
-            "name": "Excepturi dignissimos",
-            "href": "/link2"
-        },
-        {
-            "name": "Suscipit distinctio",
-            "href": "/link3"
-        },
-        {
-            "name": "Dilecta",
-            "href": "/link4"
-        },
-        {
-            "name": "Sit quas consectetur",
-            "href": "/link5"
-        }
-    ]
+  ],
+  "footerLinks": [
+    {
+      "name": "Home",
+      "href": "/"
+    },
+    {
+      "name": "About us",
+      "href": "/about"
+    },
+    {
+      "name": "Services",
+      "href": "/services"
+    },
+    {
+      "name": "Terms of service",
+      "href": "/terms"
+    },
+    {
+      "name": "Privacy policy",
+      "href": "/privacy"
+    },
+    {
+      "name": "Career",
+      "href": "/career"
+    }
+  ],
+  "services": [
+    {
+      "name": "Web Design",
+      "href": "/services/web-design"
+    },
+    {
+      "name": "Web Development",
+      "href": "/services/web-development"
+    },
+    {
+      "name": "Product Management",
+      "href": "/services/product-management"
+    },
+    {
+      "name": "Marketing",
+      "href": "/services/marketing"
+    },
+    {
+      "name": "Graphic Design",
+      "href": "/services/graphic-design"
+    }
+  ],
+  "quickLinks": [
+    {
+      "name": "Molestiae accusamus iure",
+      "href": "/link1"
+    },
+    {
+      "name": "Excepturi dignissimos",
+      "href": "/link2"
+    },
+    {
+      "name": "Suscipit distinctio",
+      "href": "/link3"
+    },
+    {
+      "name": "Dilecta",
+      "href": "/link4"
+    },
+    {
+      "name": "Sit quas consectetur",
+      "href": "/link5"
+    }
+  ]
 }

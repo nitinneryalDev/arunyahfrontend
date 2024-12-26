@@ -1,6 +1,7 @@
 import React from "react";
-
+import CommonHero from "./components/CommonHero";
 import data from "./db.json";
+import { Link } from "react-router-dom";
 
 const Services = () => {
   return (
@@ -8,28 +9,11 @@ const Services = () => {
       className="page-title aos-init  position-relative aos-animate"
       data-aos="fade"
     >
-      <div className=" services_container text-center h-50 text-white py-5">
-        <h1>Services</h1>
-        <p>
-          Esse dolorum voluptatum ullam est sint nemo et est ipsa porro placeat
-          quibusdam quia assumenda numquam molestias.
-        </p>
-        <nav className="breadcrumbs d-inline-block">
-          <ol className="breadcrumb bg-transparent p-0 m-0">
-            <li className="breadcrumb-item">
-              <a href="/" className="text-white text-decoration-none">
-                Home
-              </a>
-            </li>
-            <li
-              className="breadcrumb-item active text-white"
-              aria-current="page"
-            >
-              Services
-            </li>
-          </ol>
-        </nav>
-      </div>
+      <CommonHero
+        title="Services"
+        description="Delivering excellence across  services with reliability and innovation."
+        clsnm="services_container"
+      />
 
       <div className="container py-5">
         <div className="row gy-4">
@@ -42,18 +26,17 @@ const Services = () => {
               <i className="bi bi-cart4 fs-2"></i>
             </div>
             <div>
-              <h4 className="title">Lorem Ipsum</h4>
+              <h4 className="title">Commitment to Excellence</h4>
               <p className="description">
-                Voluptatum deleniti atque corrupti quos dolores et quas
-                molestias excepturi sint occaecati cupiditate non provident
+              Our mission is to deliver top-notch solutions that combine innovation, efficiency, and reliability. We strive to exceed expectations, ensuring every service we provide reflects our dedication to excellence.
               </p>
-              <a
-                href="/"
+              {/* <Link
+                to="/"
                 className="readmore stretched-link text-decoration-none"
               >
                 <span>Learn More</span>
                 <i className="bi bi-arrow-right "></i>
-              </a>
+              </Link> */}
             </div>
           </div>
 
@@ -66,18 +49,17 @@ const Services = () => {
               <i className="bi bi-truck fs-2"></i>
             </div>
             <div>
-              <h4 className="title">Dolor Sitema</h4>
+              <h4 className="title">Tailored Solutions</h4>
               <p className="description">
-                Minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                aliquip ex ea commodo consequat tarad limino ata
+              We understand that every client is unique. Our approach focuses on creating personalized solutions that cater to your specific needs, ensuring seamless integration and maximum impact.
               </p>
-              <a
-                href="/"
+              {/* <Link
+                to="/"
                 className="readmore stretched-link text-decoration-none"
               >
                 <span>Learn More</span>
                 <i className="bi bi-arrow-right "></i>
-              </a>
+              </Link> */}
             </div>
           </div>
 
@@ -90,18 +72,17 @@ const Services = () => {
               <i className="bi bi-unity fs-2"></i>
             </div>
             <div>
-              <h4 className="title">Sed ut perspiciatis</h4>
+              <h4 className="title"> Industry Expertise</h4>
               <p className="description">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur
+              With years of experience across diverse industries, our team brings unparalleled expertise to the table. From technology to transportation, real estate, and travel, we provide services you can trust.
               </p>
-              <a
-                href="/"
+              {/* <Link
+                to="/"
                 className="readmore stretched-link text-decoration-none"
               >
                 <span className="text-decoration-none">Learn More</span>
                 <i className="bi bi-arrow-right"></i>
-              </a>
+              </Link> */}
             </div>
           </div>
         </div>
@@ -111,213 +92,78 @@ const Services = () => {
         <div className="container section-title" data-aos="fade-up">
           <h2 className="text-white">Our Services</h2>
           <p className="text-white">
-            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-            consectetur velit
+          we bring innovation, dedication, and expertise to every project we undertake. From IT solutions to transportation, real estate, and travel, we’re committed to delivering value-driven services that cater to your diverse needs. Let us help you achieve your goals with precision and reliability.
           </p>
         </div>
-
-        {/* <div className="container  ">
-          <div className="row py-5 gy-4">
-          
-            <div
-              className="col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
-              <div className="card">
-                <div className="card-img">
-                  <img src={image} alt="Storage" className="img-fluid" />
-                </div>
-                <div className="p-4">
-                  <h3>
-                    <a href="#" className="stretched-link">
-                      Warehousing
-                    </a>
-                  </h3>
-                  <p>
-                    Quas assumenda non occaecati molestiae. In aut earum sed
-                    natus beatae in vero. Ab modi quisquam aut nostrum unde et
-                    qui est non quo nulla
-                  </p>
-                </div>
-              </div>
-            </div>
-
-          
-            <div
-              className="col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
-              <div className="card">
-                <div className="card-img">
-                  <img src={image} alt="Logistics" className="img-fluid" />
-                </div>
-                <div className="p-4">
-                  <h3>
-                    <a href="#" className="stretched-link">
-                      Warehousing
-                    </a>
-                  </h3>
-                  <p>
-                    Quas assumenda non occaecati molestiae. In aut earum sed
-                    natus beatae in vero. Ab modi quisquam aut nostrum unde et
-                    qui est non quo nulla
-                  </p>
-                </div>
-              </div>
-            </div>
-
-      
-            <div
-              className="col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay="300"
-            >
-              <div className="card">
-                <div className="card-img">
-                  <img src={image} alt="Cargo" className="img-fluid" />
-                </div>
-                <div className="p-4">
-                  <h3>
-                    <a href="#" className="stretched-link">
-                      Warehousing
-                    </a>
-                  </h3>
-                  <p>
-                    Quas assumenda non occaecati molestiae. In aut earum sed
-                    natus beatae in vero. Ab modi quisquam aut nostrum unde et
-                    qui est non quo nulla
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay="400"
-            >
-              <div className="card">
-                <div className="card-img">
-                  <img src={image} alt="Trucking" className="img-fluid" />
-                </div>
-                <div className="p-4">
-                  <h3>
-                    <a href="#" className="stretched-link">
-                      Warehousing
-                    </a>
-                  </h3>
-                  <p>
-                    Quas assumenda non occaecati molestiae. In aut earum sed
-                    natus beatae in vero. Ab modi quisquam aut nostrum unde et
-                    qui est non quo nulla
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay="500"
-            >
-              <div className="card">
-                <div className="card-img">
-                  <img src={image} alt="Packaging" className="img-fluid" />
-                </div>
-                <div className="p-4">
-                  <h3>
-                    <a href="#" className="stretched-link">
-                      Warehousing
-                    </a>
-                  </h3>
-                  <p>
-                    Quas assumenda non occaecati molestiae. In aut earum sed
-                    natus beatae in vero. Ab modi quisquam aut nostrum unde et
-                    qui est non quo nulla
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay="600"
-            >
-              <div className="card">
-                <div className="card-img">
-                  <img src={image} alt="Warehousing" className="img-fluid" />
-                </div>
-                <div className="p-4">
-                  <h3>
-                    <a href="#" className="stretched-link">
-                      Warehousing
-                    </a>
-                  </h3>
-                  <p>
-                    Quas assumenda non occaecati molestiae. In aut earum sed
-                    natus beatae in vero. Ab modi quisquam aut nostrum unde et
-                    qui est non quo nulla
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> */}
       </section>
 
+  
       <section id="features" className="features section py-5">
-        {/* Section Title */}
-        <div className="container section-title" data-aos="fade-up">
-          <span>Features</span>
-          <h2>Features</h2>
-          <p>
-            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-            consectetur velit
-          </p>
+  {/* Section Title */}
+  <div className="container section-title" data-aos="fade-up">
+    {/* <span>Features</span> */}
+    <h2>Features</h2>
+    <p>
+      Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+      consectetur velit
+    </p>
+  </div>
+
+  <div className="container mt-4">
+ 
+    {data.features.map((feature, index) => (
+      <Link
+            to={feature.route}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-decoration-none text-primary"
+          >
+        
+         
+      <div
+        key={feature.id}  // Add a unique key to the outer div element
+        className={`row gy-4 py-5 align-items-center  features-item ${
+          feature.reverse ? "flex-row-reverse" : ""
+        }`}
+      >
+        <div
+          className="col-md-5 d-flex align-items-center"
+          data-aos="zoom-out"
+          data-aos-delay={100 * (index + 1)}
+        >
+          <img
+            src={require(`${feature.image}`)}
+            className="img-fluid rounded-4"
+            alt={`Feature ${feature.id}`}
+          />
         </div>
 
-        <div className="container mt-4">
-          {data.features.map((feature, index) => (
-            <div
-              key={feature.id}
-              className={`row gy-4 py-5 align-items-center features-item ${
-                feature.reverse ? "flex-row-reverse" : ""
-              }`}
-            >
-              <div
-                className="col-md-5 d-flex align-items-center"
-                data-aos="zoom-out"
-                data-aos-delay={100 * (index + 1)}
-              >
-                <img
-                  src={require(`${feature.image}`)}
-                  className="img-fluid rounded-4"
-                  alt={`Feature ${feature.id}`}
-                />
-              </div>
+        <div
+          className="col-md-7"
+          data-aos="fade-up"
+          data-aos-delay={100 * (index + 1)}
+        >
+          <h3 className="text-decoration-none   text-primary" >{feature.name}</h3>
+          <p className="fst-italic text-decoration-none text-primary">{feature.description}</p>
+          {feature.points && (
+            <ul>
+              {feature.points.map((point, idx) => (
+                <li key={idx}>
+                  <i className="bi bi-check"></i> <span>{point}</span>
+                </li>
+              ))}
+            </ul>
+          )}
+          {feature.extraText && <p>{feature.extraText}</p>}
 
-              <div
-                className="col-md-7"
-                data-aos="fade-up"
-                data-aos-delay={100 * (index + 1)}
-              >
-                <h3>{feature.name}</h3>
-                <p className="fst-italic">{feature.description}</p>
-                {feature.points && (
-                  <ul>
-                    {feature.points.map((point, idx) => (
-                      <li key={idx}>
-                        <i className="bi bi-check"></i> <span>{point}</span>
-                      </li>
-                    ))}
-                  </ul>
-                )}
-                {feature.extraText && <p>{feature.extraText}</p>}
-              </div>
-            </div>
-          ))}
         </div>
-      </section>
+      </div>
+      </Link>
+    ))}
+  </div>
+</section>
+
+
     </div>
   );
 };

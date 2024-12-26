@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="row pt-4 gy-4">
           <div className="col-lg-4 col-md-6 footer-about">
             <Link
-              href="index.html"
+              to="/"
               className="logo d-flex align-items-center text-decoration-none"
             >
               <span className="sitename text-decoration-none text-white">
@@ -22,26 +22,46 @@ const Footer = () => {
               <p> Brampton, ON L6P1L9, 1L9, Brampton, Ontario</p>
               <p>Canada L6P, CA</p>
               <p className="mt-3">
-                <strong>Phone:</strong> <span>+91 9206760006</span>
+                <strong>Phone:</strong>{" "}
+                <span>
+                  <a
+                    className="text-white text-decoration-none"
+                    href="tel:+91 9206760006"
+                  >
+                    {" "}
+                    +91 9206760006
+                  </a>
+                </span>
               </p>
               <p>
                 <strong>Email:</strong>{" "}
-                <span>arunyahenterprises@gmail.com</span>
+                <span>
+                  <a
+                    className="text-white text-decoration-none"
+                    href="arunyahenterprises@gmail.com"
+                  >
+                    arunyahenterprises@gmail.com
+                  </a>
+                </span>
               </p>
             </div>
             <div className="social-links d-flex mt-4">
               <Link href="/">
                 <i className="bi bi-twitter-x"></i>
               </Link>
-              <Link href="/">
+              <Link href="https://www.instagram.com/arunyahenterprises//">
                 <i className="bi bi-facebook"></i>
               </Link>
-              <Link href="/">
+              <a href="https://www.instagram.com/arunyahenterprises/">
                 <i className="bi bi-instagram"></i>
-              </Link>
-              <Link href="www.linkedin.com/company/arunyah-enterprises-pvt">
+              </a>
+              <a
+                href="https://www.linkedin.com/company/arunyah-enterprises-pvt"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="bi bi-linkedin"></i>
-              </Link>
+              </a>
             </div>
           </div>
 
@@ -84,7 +104,7 @@ const Footer = () => {
                 <li className="mb-2" key={index}>
                   <Link
                     className="text-decoration-none text-white fw-light"
-                    href={industry.href}
+                    to={industry.href}
                   >
                     {industry.name}
                   </Link>
@@ -112,6 +132,26 @@ const Footer = () => {
       </div>
 
       <div className="container copyright text-center pb-3 mt-4">
+        <div className="d-flex my-2 justify-content-center ">
+          <span>
+            {" "}
+            <Link
+              className="text-decoration-none text-white p-2 fw-light"
+              href="/"
+            >
+              T&C
+            </Link>
+          </span>{" "}
+          <span>
+            {" "}
+            <Link
+              className="text-decoration-none p-2 text-white fw-light"
+              href="/"
+            >
+              Privacy Policy
+            </Link>
+          </span>
+        </div>
         <p>
           © <span>Copyright</span>{" "}
           <strong className="px-1 sitename">Arunyah PVT LTD</strong>{" "}

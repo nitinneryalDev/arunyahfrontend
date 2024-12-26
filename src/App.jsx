@@ -6,22 +6,68 @@ import Home from "./Home";
 import Layout from "./components/Layout";
 import Services from "./Services.js";
 import Blogs from "./Blogs.js";
-
-
+import NotFound from "./components/NotFound.js";
+import ServiceType from "./ServiceType.js";
 
 const App = () => {
-return (
+  return (
     <>
-     <Router>
-      <Layout>
+      <Router>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/blog" element={<Blogs />} />
+
+        <Route
+                path="/services/:serviceType"
+                element={
+                  <Layout>
+                    <ServiceType />
+                  </Layout>
+                }
+              />
+          <Route
+            path="/"
+            element={
+              <Layout>
+                <Home />
+              </Layout>
+            }
+          />
+          <Route
+            path="/services"
+            title={`Services`}
+            element={
+              <Layout>
+                <Services />
+              </Layout>
+            }
+          />
+          
+              <Route
+            path="/about"
+            element={
+              <Layout>
+                <About />
+              </Layout>
+            }
+          />
+          <Route
+            path="/contact"
+            element={
+              <Layout>
+                <Contact />
+              </Layout>
+            }
+          />
+          <Route
+            path="/blog"
+            element={
+              <Layout>
+                <Blogs />
+              </Layout>
+            }
+          />
+
+          <Route path="*" element={<NotFound />} />
         </Routes>
-        </Layout>
       </Router>
     </>
   );

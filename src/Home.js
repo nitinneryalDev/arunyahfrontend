@@ -19,10 +19,6 @@ function Home() {
     <FeaturesSection/>
     <CallToAction/>
     <ContactUs/>
-    
-
-
-      
     </div>
   )
 }

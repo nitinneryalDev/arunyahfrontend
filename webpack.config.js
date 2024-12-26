@@ -25,6 +25,7 @@ module.exports = {
         {
           test: /\.(png|jpe?g|gif|svg)$/i, // Matches image files
           type: "asset/resource", // Handles image assets
+          
         },
         {
           test: /\.html$/, // Matches HTML files
@@ -51,7 +52,6 @@ module.exports = {
     historyApiFallback: true, // Redirects all 404s to index.html for React Router
     port: 3001, // Development server port
     open: true, // Automatically opens the app in the default browser
-    allowedHosts: ['localhost', '127.0.0.1', '20.192.98.162'],
   },
   mode: "development", // Sets development mode
 };
