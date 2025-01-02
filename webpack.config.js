@@ -1,6 +1,5 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-const ImageMinimizerPlugin = require("image-minimizer-webpack-plugin");
 
 module.exports = {
   entry: "./src/index.js",
@@ -26,7 +25,6 @@ module.exports = {
       {
         test: /\.(png|jpe?g|gif|svg)$/i,
         type: "asset/resource",
-        // image-minimizer-webpack-plugin doesn't require a separate loader
       },
       {
         test: /\.html$/,
@@ -43,20 +41,6 @@ module.exports = {
       favicon: "./src/assets/images/logo.jpg",
       inject: true,
       scriptLoading: "defer",
-    }),
-    new ImageMinimizerPlugin({
-      test: /\.(jpe?g|png|gif|svg)$/i,
-      minimizer: {
-        implementation: ImageMinimizerPlugin.imageminGenerate,
-        options: {
-          plugins: [
-            ["mozjpeg", { quality: 75 }],
-            ["pngquant", { quality: [0.65, 0.90], speed: 4 }],
-            ["gifsicle", { interlaced: false }],
-            ["webp", { quality: 75 }],
-          ],
-        },
-      },
     }),
   ],
   devServer: {
