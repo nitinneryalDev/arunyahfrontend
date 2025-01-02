@@ -2,13 +2,13 @@
 
   "teamMembers": [
     {
-      "image": "./assets/images/team/raghabSood.png",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI9lRck6miglY0SZF_BZ_sK829yiNskgYRUg&s",
       "name": "Raghav Sood",
       "position": "Property Specialist",
       "description": "You can rely on our amazing features services for a great experience."
     },
     {
-      "image": "./assets/images/team/manmohan.jpg",
+      "image": "https://png.pngtree.com/png-vector/20190710/ourmid/pngtree-user-vector-avatar-png-image_1541962.jpg",
       "name": "Manmohan Singh",
       "position": "Chief marketing officer (CMO)",
       "description": "Delivering excellence and managing projects effectively with our expertise."
@@ -20,7 +20,7 @@
       "description": "Innovative marketing solutions tailored to your needs."
     },
     {
-      "image": "./assets/images/team/rohanJoshi.jpg",
+      "image": "https://png.pngtree.com/png-vector/20220709/ourmid/pngtree-businessman-user-avatar-wearing-suit-with-red-tie-png-image_5809521.png",
       "name": "Rohan Joshi",
       "position": "Tech Lead",
       "description": "Leading technical solutions with passion and expertise."
