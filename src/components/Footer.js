@@ -3,6 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import data from "../db.json";
 
+
 const Footer = () => {
   return (
     <footer id="footer" className="footer  bg-primary text-white">
@@ -18,50 +19,54 @@ const Footer = () => {
               </span>
             </Link>
             <div className="footer-contact pt-3">
-              <p>20 trevino crescent, Brampton, ON L6P1L9, 1L9</p>
-              <p> Brampton, ON L6P1L9, 1L9, Brampton, Ontario</p>
-              <p>Canada L6P, CA</p>
-              <p className="mt-3">
-                <strong>Phone:</strong>{" "}
-                <span>
-                  <a
-                    className="text-white text-decoration-none"
-                    href="tel:+91 9206760006"
-                  >
-                    {" "}
-                    +91 9206760006
-                  </a>
-                </span>
-              </p>
-              <p>
-                <strong>Email:</strong>{" "}
-                <span>
-                  <a
-                    className="text-white text-decoration-none"
-                    href="arunyahenterprises@gmail.com"
-                  >
-                    arunyahenterprises@gmail.com
-                  </a>
-                </span>
-              </p>
-            </div>
+      {data.contactDetails.map((contact, index) => (
+        <div key={index}>
+          {contact.address.map((addressLine, idx) => (
+            <p key={idx}>{addressLine}</p>
+          ))}
+          <p className="mt-3">
+            <strong>Phone:</strong>{" "}
+            <span>
+              <a
+                className="text-white text-decoration-none"
+                href={`tel:${contact.phone}`}
+              >
+                {contact.phone}
+              </a>
+            </span>
+          </p>
+          <p>
+            <strong>Email:</strong>{" "}
+            <span>
+              <a
+                className="text-white text-decoration-none"
+                href={`mailto:${contact.email}`}
+              >
+                {contact.email}
+              </a>
+            </span>
+          </p>
+        </div>
+      ))}
+    </div>
+          
             <div className="social-links d-flex mt-4">
-              <Link href="/">
+              <Link to="/">
                 <i className="bi bi-twitter-x"></i>
               </Link>
-              <Link href="https://www.instagram.com/arunyahenterprises//">
+              <Link to="https://www.instagram.com/arunyahenterprises//">
                 <i className="bi bi-facebook"></i>
               </Link>
-              <a href="https://www.instagram.com/arunyahenterprises/">
+              <Link to="https://www.instagram.com/arunyahenterprises/">
                 <i className="bi bi-instagram"></i>
-              </a>
-              <a
-                href="https://www.linkedin.com/company/arunyah-enterprises-pvt"
+              </Link>
+              <Link
+                to="https://www.linkedin.com/company/arunyah-enterprises-pvt"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <i className="bi bi-linkedin"></i>
-              </a>
+              </Link>
             </div>
           </div>
 
@@ -72,7 +77,7 @@ const Footer = () => {
                 <li className="mb-2" key={index}>
                   <Link
                     className="text-decoration-none text-white fw-light"
-                    href={link.href}
+                    to={link.href}
                   >
                     {link.name}
                   </Link>
@@ -130,8 +135,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-
-      <div className="container copyright text-center pb-3 mt-4">
+      <hr className="divider  bg-light"></hr>      <div className="container copyright text-center pb-3 mt-4">
         <div className="d-flex my-2 justify-content-center ">
           <span>
             {" "}

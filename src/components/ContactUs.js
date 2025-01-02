@@ -1,4 +1,5 @@
 import React from "react";
+import data from "../db.json";
 
 function ContactUs() {
   return (
@@ -7,8 +8,8 @@ function ContactUs() {
       <div className="container section-title" data-aos="fade-up">
         <h2>Contact Us</h2>
         <p>
-        We’re here to assist you with tailored solutions and reliable support for your IT needs.
-
+          We’re here to assist you with tailored solutions and reliable support
+          for your IT needs.
         </p>
       </div>
 
@@ -19,53 +20,112 @@ function ContactUs() {
             <div className="info-box" data-aos="fade-up" data-aos-delay="200">
               <h3>Contact Info</h3>
               <p>
-              For more information about any of our services, or to get a no obligation website design quotation, please contact us either by completing our online form or through the various contact methods.
+                For more information about any of our services, or to get a no
+                obligation website design quotation, please contact us either by
+                completing our online form or through the various contact
+                methods.
               </p>
+              {data.contactDetails.map((contact, index) => (
+                <div key={index}>
+                  <div
+                    className="info-item d-flex gap-3"
+                    data-aos="fade-up"
+                    data-aos-delay="300"
+                  >
+                    <div className="icon-box">
+                      <i className="bi bi-geo-alt"></i>
+                    </div>
+                    {contact.address.map((addressLine) => (
+                      <div className="content">
+                        <h6>Our Location</h6>
+                        <p className="fw-lighter w-50 mb-3 fs-6 text mb-1">
+                          {addressLine}
+                        </p>
+                      </div>
+                    ))}
+                  </div>
 
-              <div
-                className="info-item d-flex gap-3"
-                data-aos="fade-up"
-                data-aos-delay="300"
-              >
-                <div className="icon-box">
-                  <i className="bi bi-geo-alt"></i>
-                </div>
-                <div className="content">
-                  <h6>Our Location</h6>
-                  <p className="fw-lighter fs-6 text mb-1">A108 Adam Street</p>
-                  <p className="fw-lighter fs-6 text">New York, NY 535022</p>
-                </div>
-              </div>
+                  <div
+                    className="info-item mb-3 d-flex gap-3"
+                    data-aos="fade-up"
+                    data-aos-delay="400"
+                  >
+                    <div className="icon-box">
+                      <i className="bi bi-telephone"></i>
+                    </div>
+                    <div className="content">
+                      <h6>Phone Number</h6>
 
-              <div
-                className="info-item d-flex gap-3"
-                data-aos="fade-up"
-                data-aos-delay="400"
-              >
-                <div className="icon-box">
-                  <i className="bi bi-telephone"></i>
-                </div>
-                <div className="content">
-                  <h6>Phone Number</h6>
-                  <p className="fw-lighter fs-6 text mb-1">+1 5589 55488 55</p>
-                  <p className="fw-lighter fs-6 text">+1 6678 254445 41</p>
-                </div>
-              </div>
+                      <p className="fw-lighter fs-6 text mb-1">
+                        {" "}
+                        <span>
+                          <a
+                            className="text-white text-decoration-none"
+                            href={`tel:${contact.phone}`}
+                          >
+                            {contact.phone}
+                          </a>
+                        </span>
+                      </p>
+                      <p className="fw-lighter fs-6 text mb-1">
+                        {" "}
+                        <span>
+                          <a
+                            className="text-white text-decoration-none"
+                            href={`tel:${contact.phone2}`}
+                          >
+                            {contact.phone2}
+                          </a>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
 
-              <div
-                className="info-item d-flex gap-3"
-                data-aos="fade-up"
-                data-aos-delay="500"
-              >
-                <div className="icon-box">
-                  <i className="bi bi-envelope"></i>
+                  <div
+                    className="info-item d-flex gap-3"
+                    data-aos="fade-up"
+                    data-aos-delay="500"
+                  >
+                    <div className="icon-box">
+                      <i className="bi bi-envelope"></i>
+                    </div>
+                    <div className="content">
+                      <h6>Email Address</h6>
+                      <p className="fw-lighter fs-6 text mb-1">
+                        <span>
+                          <a
+                            className="text-white text-decoration-none"
+                            href={`mailto:${contact.email}`}
+                          >
+                            {contact.email}
+                          </a>
+                        </span>
+                      </p>
+                      <p className="fw-lighter mb-1 fs-6 text">
+                        <span>
+                          <a
+                            className="text-white text-decoration-none"
+                            href={`mailto:${contact.email}`}
+                          >
+                            {contact.email2}
+                          </a>
+                        </span>
+                      </p>
+
+                      <p className="fw-lighter  fs-6 text">
+                        <span>
+                          <a
+                            className="text-white text-decoration-none"
+                            href={`mailto:${contact.email3}`}
+                          >
+                            {contact.email3}
+                          </a>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
                 </div>
-                <div className="content">
-                  <h6>Email Address</h6>
-                  <p className="fw-lighter fs-6 text mb-1">info@example.com</p>
-                  <p className="fw-lighter fs-6 text">contact@example.com</p>
-                </div>
-              </div>
+              ))}
             </div>
           </div>
 
@@ -78,8 +138,8 @@ function ContactUs() {
             >
               <h3>Get In Touch</h3>
               <p>
-              Have questions or need assistance? Our team is ready to help you with expert guidance and prompt support. Reach out to us today!
-
+                Have questions or need assistance? Our team is ready to help you
+                with expert guidance and prompt support. Reach out to us today!
               </p>
 
               <form

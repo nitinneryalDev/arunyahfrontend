@@ -27,7 +27,7 @@ function DairySection() {
         <div className="container py-5">
           <div className="row">
             {/* Left Highlight Section */}
-            <div className="col-md-4 d-flex p-4 justify-content-center">
+            <div className="col-sm-12 col-lg-12  col-xl-4 col-md-12 d-flex p-4 justify-content-center">
               <div className="highlight-section p-4 d-flex flex-column rounded-2 justify-content-center p-2 bg-primary text-white">
                 <h2>Why Choose Our Dairy Products?</h2>
                 <p>
@@ -39,12 +39,12 @@ function DairySection() {
               </div>
             </div>
             {/* Right Feature Cards */}
-            <div className="col-md-8 d-flex justify-content-center">
+            <div className="col-sm-12  col-md-12 col-xl-8  col-lg-12 d-flex justify-content-center">
               <div className="row p-4">
                 {data.DairyData?.map((data, index) => (
                   <div
                     key={index}
-                    className="col-md-4 d-flex justify-content-center"
+                    className="col-md-4 p-2  d-flex justify-content-center"
                   >
                     <div
                       className="card border-primary border"
@@ -66,16 +66,15 @@ function DairySection() {
 
       <section className="py-5 bg-primary">
         <div className="container section-title" data-aos="fade-up">
-          <h2 className="text-white">Our Services</h2>
+          <h2 className="text-white">Dairy Products</h2>
           <p className="text-white">
-            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-            consectetur velit
+          From our farm to your table, authentic and natural goodness.
           </p>
         </div>
         <div className="container text-center">
           <div className="row py-3 align-items-start">
             {DairyImage.map((data, index) => (
-              <div key={index} className="col">
+              <div key={index} className="col-12 col-sm-4 col-md-4 col-lg-2 mb-4">
                 <img
                   src={data.img}
                   className="img-fluid img-thumbnail rounded-circle"

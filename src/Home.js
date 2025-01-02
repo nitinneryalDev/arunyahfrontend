@@ -7,6 +7,7 @@ import FeaturesCards from './components/FeaturesCards'
 import FeaturesSection from './components/Features'
 import CallToAction from "./components/CallToAction"
 import ContactUs from './components/ContactUs'
+import TeamSection from './components/TeamSection'
 
 function Home() {
   return (
@@ -18,6 +19,7 @@ function Home() {
     <FeaturesCards/>
     <FeaturesSection/>
     <CallToAction/>
+    <TeamSection/>
     <ContactUs/>
     </div>
   )

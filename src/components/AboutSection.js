@@ -20,9 +20,9 @@ const aboutData = {
   ],
   ceo: {
     image:avatarImage, // replace with avatarImage path
-    name: "Rohit Sharma",
-    role: "HR Executive",
-    phone: "+91 9206760006",
+    name: "Gaurav Kalia",
+    role: "COO",
+    phone: "+91 647-354-2670",
   },
   experience: {
     years: 15,

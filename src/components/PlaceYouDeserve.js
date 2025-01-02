@@ -1,5 +1,5 @@
 import React from 'react'
-import howItworks from "../assets/images/corporate/howitworkstwo.jpg" 
+import howItworks from "../assets/images/datad.png" 
 
 
 function PlaceYouDeserve() {
@@ -9,7 +9,7 @@ function PlaceYouDeserve() {
       <div className="  col-lg-12  col-md-12 col-12">
 
       <div className="position-relative  m-lg-5">
-        <img src={howItworks} className="d-block image_place  w-100 rounded-4"  alt="..." />
+        <img src={howItworks} className=" image_place  w-100 rounded-4"  alt="..." />
         <div className="section_third w-100  p-2 position-absolute top-50 start-50 translate-middle">
             <div className="black-overlay position-relative h-sm-50 h-md-50  h-xl-100 h-xxl-100 h-lg-75">
               <div className="txt-block w-lg-75 w-xl-75 w-xxl-75 w-md-75 w-sm-100 w-100 p-2  p-sm-2 p-md-5 p-lg-5 mx-xl-5 text-white position-absolute content-text top-50 start-50    translate-middle ">
