@@ -1,5 +1,47 @@
 {
 
+  "teamMembers": [
+    {
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI9lRck6miglY0SZF_BZ_sK829yiNskgYRUg&s",
+      "name": "Raghav Sood",
+      "position": "Property Specialist",
+      "description": "You can rely on our amazing features services for a great experience."
+    },
+    {
+      "image": "https://png.pngtree.com/png-vector/20190710/ourmid/pngtree-user-vector-avatar-png-image_1541962.jpg",
+      "name": "Manmohan Singh",
+      "position": "Chief marketing officer (CMO)",
+      "description": "Delivering excellence and managing projects effectively with our expertise."
+    },
+    {
+      "image": "https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t3.jpg",
+      "name": "Gaurav Kalia",
+      "position": "Chief Operating Officer (COO)",
+      "description": "Innovative marketing solutions tailored to your needs."
+    },
+    {
+      "image": "https://png.pngtree.com/png-vector/20220709/ourmid/pngtree-businessman-user-avatar-wearing-suit-with-red-tie-png-image_5809521.png",
+      "name": "Rohan Joshi",
+      "position": "Tech Lead",
+      "description": "Leading technical solutions with passion and expertise."
+    }
+  ],
+
+
+
+ "contactDetails": [
+  {  "address": [
+      "20 Trevino Crescent, Brampton, L6P1L9, 1L9 Brampton, Ontario Canada L6P, CA"
+    ],
+    "phone": "+91 920-676-0006",
+    "phone2":"+91 647-354-2670",
+    "email": "arunyahenterprises@gmail.com" ,
+    "email2":"gauravkalia79@gmail.com" ,
+    "email3":"thakurmanmohan47@gmail.com" 
+  }
+  ]
+  ,
+
   "aboutContent":[
     {
     "ceo": {
@@ -61,7 +103,7 @@
       "time": "9:45 AM",
       "title": "Shimla",
       "description": "A popular hill station and capital of Himachal Pradesh, known for its colonial architecture, pleasant climate, and scenic beauty. It is a major tourist destination in North India.",
-      "img": "./assets/images/carouselimagetwo.jpg",
+      "img": "./images/carouselimagetwo.jpg",
       "delay": 100,
       "author": "Rahul"
     },
@@ -280,114 +322,117 @@
       "delay": 400
     }
   ],
-  "features": [
-    {
-      "id": 1,
-      "image": "./assets/images/carouselimageone.jpg",
-      "name": "Tour & Travel",
-      "href": "services/tourism",
-      "route": "tourism",
-      "description": "Explore a wide range of tour and travel services designed to make your journey more comfortable and memorable. From flight bookings to guided tours, we provide a complete travel experience.",
-      "points": [
-        "Ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "Duis aute irure dolor in reprehenderit in voluptate velit.",
-        "Ullam est qui quos consequatur eos accusamus."
-      ],
-      "reverse": false
-    },
-    {
-      "id": 2,
-      "image": "./assets/images/Construction.jpg",
-      "name": "Construction",
-      "href": "services/construction",
-      "route": "construction",
-      "description": "Building the future with state-of-the-art construction techniques and top-tier materials. Our construction services span residential, commercial, and infrastructure development.",
-      "extraText": "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "reverse": true
-    },
-    {
-      "id": 3,
-      "image": "./assets/images/dairy.jpg",
-      "name": "Dairy Farm",
-      "href": "services/dairy",
-      "route": "dairy",
-      "description": "Our dairy farm provides high-quality, fresh dairy products directly from the farm to your table. Committed to sustainability and quality, we ensure each product meets the highest standards.",
-      "points": [
-        "Ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "Duis aute irure dolor in reprehenderit in voluptate velit.",
-        "Facilis ut et voluptatem aperiam. Autem soluta ad fugiat."
-      ],
-      "reverse": false
-    },
-    {
-      "id": 4,
-      "image": "./assets/images/agriculture.jpg",
-      "name": "Agriculture",
-      "href": "services/agriculture",
-      "route": "agriculture",
-      "description": "Revolutionizing agriculture with innovative farming practices, we focus on enhancing crop production while promoting environmental sustainability.",
-      "extraText": "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "reverse": true
-    },
-    {
-      "id": 5,
-      "image": "./assets/images/itservices.jpg",
-      "name": "I.T Services",
-      "href": "services/itservices",
-      "route": "itservices",
-      "description": "Providing cutting-edge IT solutions, from software development to IT consulting, we help businesses navigate and thrive in the digital landscape.",
-      "points": [
-        "Ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "Duis aute irure dolor in reprehenderit in voluptate velit.",
-        "Facilis ut et voluptatem aperiam. Autem soluta ad fugiat."
-      ],
-      "reverse": false
-    },
-    {
-      "id": 6,
-      "image": "./assets/images/transportion.jpg",
-      "name": "Logistics",
-      "href": "services/logistics",
-      "route": "logistics",
-      "description": "Our logistics services are tailored to meet the needs of businesses looking for efficient and reliable transportation, warehousing, and distribution solutions.",
-      "extraText": "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "reverse": true
-    },
-    {
-      "id": 7,
-      "image": "./assets/images/realestate.jpg",
-      "name": "Real Estate",
-      "href": "services/realestate",
-      "route": "realestate",
-      "description": "We specialize in residential and commercial real estate, providing personalized services to buyers, sellers, and investors. Our goal is to help clients find their ideal property.",
-      "points": [
-        "Ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "Duis aute irure dolor in reprehenderit in voluptate velit.",
-        "Facilis ut et voluptatem aperiam. Autem soluta ad fugiat."
-      ],
-      "reverse": false
-    },
-    {
-      "id": 8,
-      "image": "./assets/images/importexport.jpg",
-      "name": "Import Export",
-      "href": "services/importexport",
-      "route": "importexport",
-      "description": "Facilitating seamless import and export services to help businesses expand globally. We offer logistics, documentation, and compliance solutions to ease international trade.",
-      "extraText": "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "reverse": true
-    },
-    {
-      "id": 9,
-      "image": "./assets/images/education.jpg",
-      "name": "Education",
-      "href": "services/education",
-      "route": "education",
-      "description": "Providing quality educational services ranging from online courses to in-person training programs. We focus on creating learning environments that foster growth and development.",
-      "extraText": "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "reverse": false
-    }
-  ],
+ 
+    "features": [
+      {
+        "id": 1,
+        "image": "./assets/images/carouselimageone.jpg",
+        "name": "Tour & Travel",
+        "href": "services/tourism",
+        "route": "tourism",
+        "description": "Explore a wide range of tour and travel services designed to make your journey more comfortable and memorable. From flight bookings to guided tours, we provide a complete travel experience.",
+        "points": [
+          "Experience seamless travel planning with our expert services.",
+          "Enjoy curated tour packages tailored to your preferences.",
+          "Discover unforgettable destinations with guided tours."
+        ],
+        "reverse": false
+      },
+      {
+        "id": 2,
+        "image": "./assets/images/Construction.jpg",
+        "name": "Construction",
+        "href": "services/construction",
+        "route": "construction",
+        "description": "Building the future with state-of-the-art construction techniques and top-tier materials. Our construction services span residential, commercial, and infrastructure development.",
+        "extraText": "Our construction services combine innovative designs with durability and sustainability. We work closely with clients to ensure their vision is brought to life with exceptional quality and precision.",
+        "reverse": true
+      },
+      {
+        "id": 3,
+        "image": "./assets/images/dairy.jpg",
+        "name": "Dairy Farm",
+        "href": "services/dairy",
+        "route": "dairy",
+        "description": "Our dairy farm provides high-quality, fresh dairy products directly from the farm to your table. Committed to sustainability and quality, we ensure each product meets the highest standards.",
+        "points": [
+          "Fresh milk and dairy products sourced directly from the farm.",
+          "Strict quality control to maintain nutritional value.",
+          "Sustainable farming practices to protect the environment."
+        ],
+        "reverse": false
+      },
+      {
+        "id": 4,
+        "image": "./assets/images/agriculture.jpg",
+        "name": "Agriculture",
+        "href": "services/agriculture",
+        "route": "agriculture",
+        "description": "Revolutionizing agriculture with innovative farming practices, we focus on enhancing crop production while promoting environmental sustainability.",
+        "extraText": "We employ advanced farming techniques to increase yield and ensure sustainable practices. Our goal is to create a balance between high productivity and environmental stewardship.",
+        "reverse": true
+      },
+      {
+        "id": 5,
+        "image": "./assets/images/itservices.jpg",
+        "name": "I.T Services",
+        "href": "services/itservices",
+        "route": "itservices",
+        "description": "Providing cutting-edge IT solutions, from software development to IT consulting, we help businesses navigate and thrive in the digital landscape.",
+        "points": [
+          "Custom software development for diverse business needs.",
+          "Comprehensive IT consulting to improve operational efficiency.",
+          "Secure and scalable IT solutions for digital transformation."
+        ],
+        "reverse": false
+      },
+      {
+        "id": 6,
+        "image": "./assets/images/transportion.jpg",
+        "name": "Logistics",
+        "href": "services/logistics",
+        "route": "logistics",
+        "description": "Our logistics services are tailored to meet the needs of businesses looking for efficient and reliable transportation, warehousing, and distribution solutions.",
+        "extraText": "We provide end-to-end logistics solutions designed to optimize supply chain efficiency. From warehousing to last-mile delivery, our services ensure timely and reliable operations.",
+        "reverse": true
+      },
+      {
+        "id": 7,
+        "image": "./assets/images/realestate.jpg",
+        "name": "Real Estate",
+        "href": "services/realestate",
+        "route": "realestate",
+        "description": "We specialize in residential and commercial real estate, providing personalized services to buyers, sellers, and investors. Our goal is to help clients find their ideal property.",
+        "points": [
+          "Extensive listings of residential and commercial properties.",
+          "Expert guidance throughout the buying or selling process.",
+          "Customized investment solutions for maximizing returns."
+        ],
+        "reverse": false
+      },
+      {
+        "id": 8,
+        "image": "./assets/images/importexport.jpg",
+        "name": "Import Export",
+        "href": "services/importexport",
+        "route": "importexport",
+        "description": "Facilitating seamless import and export services to help businesses expand globally. We offer logistics, documentation, and compliance solutions to ease international trade.",
+        "extraText": "Our import-export services are designed to simplify international trade. From managing customs documentation to ensuring compliance, we provide end-to-end solutions.",
+        "reverse": true
+      },
+      {
+        "id": 9,
+        "image": "./assets/images/education.jpg",
+        "name": "Education",
+        "href": "services/education",
+        "route": "education",
+        "description": "Providing quality educational services ranging from online courses to in-person training programs. We focus on creating learning environments that foster growth and development.",
+        "extraText": "Our education programs are designed to inspire and empower learners. With expert trainers and comprehensive courses, we aim to nurture skills and knowledge for a brighter future.",
+        "reverse": false
+      }
+    ] ,
+  
+  
   "footerLinks": [
     {
       "name": "Home",

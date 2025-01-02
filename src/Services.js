@@ -146,9 +146,9 @@ const Services = () => {
           <h3 className="text-decoration-none   text-primary" >{feature.name}</h3>
           <p className="fst-italic text-decoration-none text-primary">{feature.description}</p>
           {feature.points && (
-            <ul>
+            <ul className="ps-1"  >
               {feature.points.map((point, idx) => (
-                <li key={idx}>
+                <li style={{listStyleType:'none'}} key={idx}>
                   <i className="bi bi-check"></i> <span>{point}</span>
                 </li>
               ))}

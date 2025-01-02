@@ -2,6 +2,10 @@ import React from 'react'
 import data from "../db.json";
 
 
+
+
+
+
 function TourishmSection() {
   return (
     <section id="services" className="services section py-5 bg-primary">
@@ -24,6 +28,7 @@ function TourishmSection() {
       <div className="card ">
         <div className="card-img p-1">
           <img
+            // src={require(`${packages.img}`)}
             src={packages.img}
             alt={packages.title}
             className="img-fluid rounded"

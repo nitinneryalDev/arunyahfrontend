@@ -5,6 +5,7 @@ import TourishmSection from "./components/TourishmSection";
 import SubsectionHero from "./components/SubsectionHero"
 
 
+
 function ServiceType() {
   const { serviceType } = useParams();
  
@@ -16,7 +17,7 @@ function ServiceType() {
   
 
   if(serviceType == "tourism" ) {
-    return (  <> <SubsectionHero  title="Tour & Travel " Classdata='tour_container'  description="Helping people make memories."   />  <TourishmSection/> </>  ) 
+    return (  <> <SubsectionHero  title="Tour & Travel "  Classdata='tour_container'  description="Helping people make memories."   />  <TourishmSection  /> </>  ) 
 
  
    }
@@ -63,21 +64,6 @@ function ServiceType() {
     <p className="fs-5" > This Page Is under construction </p>  </div>
 </div> </>) 
      }
-
-
-
- 
- 
- {/* tourism
- construction
- agriculture
- itservices
- logistics
- realestate
- importexport
- education */}
-     
-
 }
 
 export default ServiceType;
