@@ -1,9 +1,11 @@
 import React from 'react'
 import data from "../db.json";
-
-
-
-
+import shimla from '../assets/images/carouselimagetwo.jpg'
+import cariyselImage  from "../assets/images/carouselimagethree.jpg"
+import  dharmshala    from "../assets/images/dharmshala.jpg"
+import laddakh from "../assets/images/ladakh.jpg"
+import kasol from "../assets/images/kasol.jpg"
+import chamba from "../assets/images/chamba.jpg"
 
 
 function TourishmSection() {
@@ -27,12 +29,27 @@ function TourishmSection() {
     >
       <div className="card ">
         <div className="card-img p-1">
-          <img
-            // src={require(`${packages.img}`)}
-            src={packages.img}
-            alt={packages.title}
-            className="img-fluid rounded"
-          />
+        <img
+                    src={
+                      packages.title === 'Shimla'
+                        ? shimla
+                        : packages.title === 'Kullu Manali'
+                        ? cariyselImage
+                        : packages.title === 'Dharamshala'
+                        ? dharmshala
+                        : packages.title === 'Kullu Manali'
+                        ? cariyselImage
+                        : packages.title === 'Leh Laddakh'
+                        ? laddakh
+                        : packages.title === 'Kasol'
+                        ? kasol
+                        : packages.title === 'Chamba'
+                        ? chamba
+                        : null // Handle cases where packages.img doesn't match image names
+                    }
+                    alt={packages.title}
+                    className="img-fluid rounded"
+                  />
         </div>
         <div className="px-4 mb-3 d-flex flex-column">
           <h3>

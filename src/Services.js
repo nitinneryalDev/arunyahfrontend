@@ -88,7 +88,7 @@ const Services = () => {
         </div>
       </div>
 
-      <section id="services" className="services section py-5  bg-primary ">
+      <section id="services" className="services section py-5  bg-secondary ">
         <div className="container section-title" data-aos="fade-up">
           <h2 className="text-white">Our Services</h2>
           <p className="text-white">
@@ -116,7 +116,7 @@ const Services = () => {
             to={feature.route}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-decoration-none text-primary"
+            className="text-decoration-none text-secondary"
           >
         
          
@@ -143,8 +143,8 @@ const Services = () => {
           data-aos="fade-up"
           data-aos-delay={100 * (index + 1)}
         >
-          <h3 className="text-decoration-none   text-primary" >{feature.name}</h3>
-          <p className="fst-italic text-decoration-none text-primary">{feature.description}</p>
+          <h3 className="text-decoration-none   " >{feature.name}</h3>
+          <p className="fst-italic text-decoration-none ">{feature.description}</p>
           {feature.points && (
             <ul className="ps-1"  >
               {feature.points.map((point, idx) => (

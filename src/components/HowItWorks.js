@@ -10,7 +10,7 @@ function HowItWorks() {
     <div className="row row g-2 g-3 ctgrs  px-lg-0 px-xxl-5 px-md-2 px-sm-2 mx-md-2 mx-sm-2  mx-lg-5 mx-xxl-5 mx-sm-2 mx-md-2">
     <div className="col-sm-4 col-md-12 col-lg-4 col-xl-4 col-xxl-4  text-white">
     <div className="row">
-    <div className="col-2 col-sm-2 text-white section-company-map justify-content-center align-items-center"> <span className='fw-bold'>1</span></div>
+    <div className="col-2 col-sm-2 text-white section-company-map justify-content-center align-items-center"> <span className='fw-bold text-light'>1</span></div>
 
     <div className="col text-dark">
     <hr  className="text-white "></hr>
@@ -22,7 +22,7 @@ function HowItWorks() {
   </div></div>
     <div className="col-sm-4 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
     <div className="row">
-    <div className="col-2 col-sm-2 text-white section-company-map"> <span className='fw-bold' >2</span></div>
+    <div className="col-2 col-sm-2 text-white section-company-map"> <span className='fw-bold text-light' >2</span></div>
     <div className="col text-dark">
     <div className="col text-dark">
     <hr className="text-white " ></hr>
@@ -35,7 +35,7 @@ function HowItWorks() {
     <div className="col-sm-4 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
     <div className="row">
     <div className="col-2 col-sm-2 text-white section-company-map">
-        <span className='fw-bold' >3</span>
+        <span className='fw-bold text-light' >3</span>
     </div>
     <div className="col  text-dark"> 
     <hr className="text-white " ></hr>          
