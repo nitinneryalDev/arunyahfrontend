@@ -37,7 +37,7 @@ const FeaturesCards = () => {
   ];
 
   return (
-    <section id="features-cards " className="py-5 px-2 bg-light  py-md-5">
+    <section id="features-cards " className="py-5 px-2 bg-secondary  py-md-5">
       <div className="container">
         <div className="row gy-4">
           {features.map((feature, index) => (

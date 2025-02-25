@@ -197,7 +197,7 @@ function ContactUs() {
 
                     <button
                       type="submit"
-                      className="btn btn-primary rounded-pill"
+                      className="btn btn-secondary rounded-pill"
                     >
                       Send Message
                     </button>

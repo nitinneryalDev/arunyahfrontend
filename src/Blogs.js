@@ -53,7 +53,7 @@ function Blogs() {
                     <p className="m-0 limit_text"   >{blog.description}</p>
                   </div>
                   <p className="text-end px-4 fst-italic">- {blog.author} </p>
-                  <button type="button" className="btn btn-primary m-4">Read More...</button>
+                  <button type="button" className="btn btn-secondary m-4">Read More...</button>
                   
                 </div>
               </div>

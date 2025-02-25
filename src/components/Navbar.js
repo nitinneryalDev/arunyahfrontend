@@ -10,7 +10,7 @@ const Navbar = (props) => {
 
   return (
     <nav
-      className={`px-lg-2 px-xxl-5   py-xxl-2 px-sm-2 px-0 px-md-2 navbar navbar-expand-lg navbar-${props.mode} bg-${props.mode}`}
+      className={`px-lg-2 px-xxl-5 py-xxl-2 px-sm-2 px-0 px-md-2 navbar navbar-expand-lg navbar-${props.mode} bg-primary`}
     >
       <div className="container-fluid mx-xxl-3 mx-xl-4">
         <NavLink
@@ -18,7 +18,7 @@ const Navbar = (props) => {
           to="/"
         >
           {/* <img src={logo} alt="logo" width="50" height="30"  className="img-thumbnail   align-text-top  "/>       */}
-          <p className="h5">Arunyah</p>
+          <p className="h5 text-secondary">Arunyah</p>
         </NavLink>
         <button
           className="navbar-toggler ml-auto   "
@@ -38,7 +38,7 @@ const Navbar = (props) => {
           <ul className="navbar-nav  mx-lg-2 mx-xl-auto  mx-lg-auto mx-md-auto mx-0 mx-xxl-auto mb-2 mb-lg-0">
             <li className="nav-item mx-xl-4 mx-xxl-4 mx-lg-0">
               <NavLink
-                className="nav-link fw-bolder active text-capitalize"
+                className="nav-link  text-light active text-capitalize"
                 aria-current="page"
                 to="/"
               >
@@ -47,7 +47,7 @@ const Navbar = (props) => {
             </li>
             <li className="nav-item mx-xl-4 mx-xxl-4 mx-lg-0">
               <NavLink
-                className="nav-link fw-bolder text-capitalize"
+                className="nav-link text-light  text-capitalize"
                 to="/blog"
               >
                 Blog
@@ -55,7 +55,7 @@ const Navbar = (props) => {
             </li>
             <li className="nav-item mx-xl-4 mx-xxl-4 mx-lg-0">
               <NavLink
-                className="nav-link fw-bolder text-capitalize"
+                className="nav-link text-light  text-capitalize"
                 to="/services"
               >
                 Services
@@ -64,7 +64,7 @@ const Navbar = (props) => {
 
             <li className="nav-item mx-xl-4 mx-xxl-4 mx-lg-0">
               <NavLink
-                className="nav-link fw-bolder text-capitalize"
+                className="nav-link  text-light text-capitalize"
                 to="/about"
               >
                 About Us
@@ -72,7 +72,7 @@ const Navbar = (props) => {
             </li>
             <li className="nav-item mx-xl-4 mx-xxl-4 mx-lg-0">
               <NavLink
-                className="nav-link fw-bolder text-capitalize"
+                className="nav-link  text-light text-capitalize"
                 to="/contact"
               >
                 Contact Us
@@ -81,7 +81,7 @@ const Navbar = (props) => {
           </ul>
         <Link to="tel:91 9206760006" >  
           <button
-            className="btn rounded-pill  btn-primary me-md-2"
+            className="btn rounded-pill  btn-secondary me-md-2"
             type="button"
           ><i className="bi px-2 bi-telephone-fill"></i>
             Contact Us

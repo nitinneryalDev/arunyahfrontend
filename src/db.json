@@ -103,7 +103,7 @@
       "time": "9:45 AM",
       "title": "Shimla",
       "description": "A popular hill station and capital of Himachal Pradesh, known for its colonial architecture, pleasant climate, and scenic beauty. It is a major tourist destination in North India.",
-      "img": "./images/carouselimagetwo.jpg",
+      "img": "../src/assets/images/carouselimagetwo.jpg",
       "delay": 100,
       "author": "Rahul"
     },
@@ -113,7 +113,7 @@
       "time": "9:45 AM",
       "title": "Kullu Manali",
       "description": "Two famous destinations in Himachal Pradesh often mentioned together. Kullu is known for its valley of flowers, temples, and cultural significance, while Manali is renowned for its adventure sports, snow-capped mountains, and picturesque views.",
-      "img": "./assets/images/carouselimagethree.jpg",
+      "img": "../src/assets/images/carouselimagethree.jpg",
       "delay": 200,
       "author": "Rahul"
     },
@@ -123,7 +123,7 @@
       "time": "9:45 AM",
       "title": "Dharamshala",
       "description": "A serene destination, home to the Dalai Lama and known for its Tibetan culture, monasteries, and beautiful landscapes. It is a peaceful retreat surrounded by the Dhauladhar mountains.",
-      "img": "./assets/images/dharmshala.jpg",
+      "img": "../src/assets/images/dharmshala.jpg",
       "delay": 300,
       "author": "Rahul"
     },
@@ -133,7 +133,7 @@
       "time": "9:45 AM",
       "title": "Leh Laddakh",
       "description": "A high-altitude region famous for its barren yet breathtaking landscapes, monasteries, and adventurous routes like Pangong Lake, Nubra Valley, and the Khardung La Pass. It is a must-visit for bikers and nature enthusiasts.",
-      "img": "./assets/images/ladakh.jpg",
+      "img": "../src/assets/images/ladakh.jpg",
       "delay": 400,
       "author": "Rahul"
     },
@@ -143,7 +143,7 @@
       "time": "9:45 AM",
       "title": "Kasol",
       "description": "A small village in Himachal Pradesh often referred to as the Mini Israel of India because of its popularity among Israeli tourists. It is known for its riverside camping, trekking, and laid-back vibe.",
-      "img": "./assets/images/kasol.jpg",
+      "img": "../src/assets/images/kasol.jpg",
       "delay": 500,
       "author": "Rahul"
     },
@@ -153,7 +153,7 @@
       "time": "9:45 AM",
       "title": "Chamba",
       "description": "A quaint town in Himachal Pradesh known for its ancient temples, local art, and cultural festivals. It is located near the Ravi River and offers a unique blend of history and natural beauty.",
-      "img": "./assets/images/chamba.jpg",
+      "img": "../src/assets/images/chamba.jpg",
       "delay": 600,
       "author": "Rahul"
     }

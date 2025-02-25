@@ -38,12 +38,12 @@ const TeamMember = ({ image, name, position, description }) => (
 
 const TeamSection = () => {
   return (
-    <div className="py-5 bg-light">
+    <div className="py-5 bg-secondary">
       <div className="container">
         <div className="row justify-content-center mb-4">
           <div className="col-md-7 text-center">
-            <h3 className="mb-3">Experienced & Professional Team</h3>
-            <p className="text-muted">
+            <h3 className="mb-3 text-light ">Experienced & Professional Team</h3>
+            <p className=" text-light">
               You can rely on our amazing features list and customer services for a great experience.
             </p>
           </div>

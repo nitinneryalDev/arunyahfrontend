@@ -1,3 +1,58 @@
+/* :root {
+  --primary-color:#e18132; 
+  --secondary-color:#03045a;
+}
+
+.bg-primary {
+  background-color: var(--primary-color) !important; 
+}
+.bg-secondary {
+  background-color: var(--secondary-color) !important;
+  color: var(--secondary-color) !important; 
+} */
+
+:root {
+  --bs-primary: #e18132 !important; /* Your new primary color */
+  --bs-secondary: #05065b !important; /* Your new secondary color */
+}
+
+.bg-primary {
+  background-color: var(--bs-primary) !important;
+}
+
+.bg-secondary {
+  background-color: var(--bs-secondary) !important;
+}
+
+
+/* Optional: Override Bootstrap classes explicitly */
+.btn-primary {
+  background-color: var(--bs-primary) !important;
+  border-color: var(--bs-primary) !important;
+}
+
+.btn-secondary {
+  background-color: var(--bs-secondary) !important;
+  border-color: var(--bs-secondary) !important;
+}
+
+/* Override text color if needed */
+.text-primary {
+  color: var(--bs-primary) !important;
+}
+
+.text-secondary {
+  color: var(--bs-secondary) !important;
+}
+
+
+
+
+
+
+
+
+
 .carousel-item {
   max-height: 35rem;
 
@@ -9,7 +64,7 @@
 
 .section-company-map span {
   display: flex;
-  background-color: #283891;
+  background-color: var(--secondary-color);
   border: 1px solid #F0F0F0;
   width: 30px;
   height: 30px;
@@ -34,17 +89,15 @@
 }
 
 .btn-primary {
-  background-color: #042743;
+  background-color: var(--primary-color);
   border-color: #042743;
 }
 
-.text-primary {
+/* .text-primary {
   color: #042743 !important;
-}
+} */
 
-.bg-primary {
-  background-color: #042743 !important;
-}
+
 
 
 .feature-box {
@@ -75,7 +128,8 @@
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  background-color: #042743;
+  /* background-color: #042743; */
+  background-color:var(--bs-primary);
   color: #FFF;
 }
 
