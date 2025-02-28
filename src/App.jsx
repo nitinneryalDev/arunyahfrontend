@@ -12,7 +12,7 @@ import ServiceType from "./ServiceType.js";
 const App = () => {
   return (
     <>
-      <Router>
+    
         <Routes>
 
         <Route
@@ -68,7 +68,7 @@ const App = () => {
 
           <Route path="*" element={<NotFound />} />
         </Routes>
-      </Router>
+
     </>
   );
 };

@@ -9,7 +9,7 @@ module.exports = {
     clean: true,
     publicPath: "/",
   },
-  module: {
+  module: { 
     rules: [
       {
         test: /\.jsx?$/,
@@ -38,7 +38,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: "./src/index.html",
-      favicon: "./src/assets/images/logo.jpg",
+      favicon: "./src/assets/images/logo.png",
       inject: true,
       scriptLoading: "defer",
     }),

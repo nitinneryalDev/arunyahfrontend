@@ -1,7 +1,13 @@
 import React from "react";
 import data from "../db.json";
+import { useLocation } from 'react-router-dom';
 
 function ContactUs() {
+  const location = useLocation();
+
+  const contactData = location.pathname === '/' ? data.ITcontactDetails : data.contactDetails;
+
+
   return (
     <section id="contact" className="contact section light-background py-5">
       {/* Section Title */}
@@ -9,7 +15,7 @@ function ContactUs() {
         <h2>Contact Us</h2>
         <p>
           We’re here to assist you with tailored solutions and reliable support
-          for your IT needs.
+          for your IT needs .
         </p>
       </div>
 
@@ -25,7 +31,7 @@ function ContactUs() {
                 completing our online form or through the various contact
                 methods.
               </p>
-              {data.contactDetails.map((contact, index) => (
+              {contactData.map((contact, index) => (
                 <div key={index}>
                   <div
                     className="info-item d-flex gap-3"

@@ -42,6 +42,19 @@
   ]
   ,
 
+  "ITcontactDetails": [
+    {  "address": [
+        "Neryal's Place Tara Devi ( Malog ) Shimla Himachal Pradesh India  , post office - 171010"
+      ],
+      "phone": "+91 920-676-0006",
+      "phone2":"+91 647-354-2670",
+      "email": "arunyahenterprises@gmail.com" ,
+      "email2":"gauravkalia79@gmail.com" ,
+      "email3":"thakurmanmohan47@gmail.com" 
+    }
+    ]
+
+,
   "aboutContent":[
     {
     "ceo": {
@@ -328,7 +341,7 @@
         "id": 1,
         "image": "./assets/images/carouselimageone.jpg",
         "name": "Tour & Travel",
-        "href": "services/tourism",
+        "href": "/services/tourism",
         "route": "tourism",
         "description": "Explore a wide range of tour and travel services designed to make your journey more comfortable and memorable. From flight bookings to guided tours, we provide a complete travel experience.",
         "points": [
@@ -342,7 +355,7 @@
         "id": 2,
         "image": "./assets/images/Construction.jpg",
         "name": "Construction",
-        "href": "services/construction",
+        "href": "/services/construction",
         "route": "construction",
         "description": "Building the future with state-of-the-art construction techniques and top-tier materials. Our construction services span residential, commercial, and infrastructure development.",
         "extraText": "Our construction services combine innovative designs with durability and sustainability. We work closely with clients to ensure their vision is brought to life with exceptional quality and precision.",
@@ -352,7 +365,7 @@
         "id": 3,
         "image": "./assets/images/dairy.jpg",
         "name": "Dairy Farm",
-        "href": "services/dairy",
+        "href": "/services/dairy",
         "route": "dairy",
         "description": "Our dairy farm provides high-quality, fresh dairy products directly from the farm to your table. Committed to sustainability and quality, we ensure each product meets the highest standards.",
         "points": [
@@ -366,7 +379,7 @@
         "id": 4,
         "image": "./assets/images/agriculture.jpg",
         "name": "Agriculture",
-        "href": "services/agriculture",
+        "href": "/services/agriculture",
         "route": "agriculture",
         "description": "Revolutionizing agriculture with innovative farming practices, we focus on enhancing crop production while promoting environmental sustainability.",
         "extraText": "We employ advanced farming techniques to increase yield and ensure sustainable practices. Our goal is to create a balance between high productivity and environmental stewardship.",
@@ -376,7 +389,7 @@
         "id": 5,
         "image": "./assets/images/itservices.jpg",
         "name": "I.T Services",
-        "href": "services/itservices",
+        "href": "/services/itservices",
         "route": "itservices",
         "description": "Providing cutting-edge IT solutions, from software development to IT consulting, we help businesses navigate and thrive in the digital landscape.",
         "points": [
@@ -390,7 +403,7 @@
         "id": 6,
         "image": "./assets/images/transportion.jpg",
         "name": "Logistics",
-        "href": "services/logistics",
+        "href": "/services/logistics",
         "route": "logistics",
         "description": "Our logistics services are tailored to meet the needs of businesses looking for efficient and reliable transportation, warehousing, and distribution solutions.",
         "extraText": "We provide end-to-end logistics solutions designed to optimize supply chain efficiency. From warehousing to last-mile delivery, our services ensure timely and reliable operations.",
@@ -400,7 +413,7 @@
         "id": 7,
         "image": "./assets/images/realestate.jpg",
         "name": "Real Estate",
-        "href": "services/realestate",
+        "href": "/services/realestate",
         "route": "realestate",
         "description": "We specialize in residential and commercial real estate, providing personalized services to buyers, sellers, and investors. Our goal is to help clients find their ideal property.",
         "points": [
@@ -414,7 +427,7 @@
         "id": 8,
         "image": "./assets/images/importexport.jpg",
         "name": "Import Export",
-        "href": "services/importexport",
+        "href": "/services/importexport",
         "route": "importexport",
         "description": "Facilitating seamless import and export services to help businesses expand globally. We offer logistics, documentation, and compliance solutions to ease international trade.",
         "extraText": "Our import-export services are designed to simplify international trade. From managing customs documentation to ensuring compliance, we provide end-to-end solutions.",
@@ -424,7 +437,7 @@
         "id": 9,
         "image": "./assets/images/education.jpg",
         "name": "Education",
-        "href": "services/education",
+        "href": "/services/education",
         "route": "education",
         "description": "Providing quality educational services ranging from online courses to in-person training programs. We focus on creating learning environments that foster growth and development.",
         "extraText": "Our education programs are designed to inspire and empower learners. With expert trainers and comprehensive courses, we aim to nurture skills and knowledge for a brighter future.",
@@ -457,28 +470,32 @@
     {
       "name": "Career",
       "href": "/career"
+    },
+    {
+      "name": "Contact",
+      "href": "/contact"
     }
   ],
   "services": [
     {
       "name": "Web Design",
-      "href": "/services/web-design"
+      "href": "/web-design"
     },
     {
       "name": "Web Development",
-      "href": "/services/web-development"
+      "href": "/web-development"
     },
     {
       "name": "Product Management",
-      "href": "/services/product-management"
+      "href": "/product-management"
     },
     {
       "name": "Marketing",
-      "href": "/services/marketing"
+      "href": "/marketing"
     },
     {
       "name": "Graphic Design",
-      "href": "/services/graphic-design"
+      "href": "/graphic-design"
     }
   ],
   "quickLinks": [

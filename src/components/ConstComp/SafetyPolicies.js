@@ -77,10 +77,10 @@ function SafetyPolicies() {
             ESPs in Project Management:
           </h5>
 
-          <div class="container text-center">
-            <div class="container mt-5 overflow-hidden text-center">
-              <div class="row   gy-5">
-                <div class="col-12 col-sm-6">
+          <div className="container text-center">
+            <div className="container mt-5 overflow-hidden text-center">
+              <div className="row   gy-5">
+                <div className="col-12 col-sm-6">
                   <div className="text-start">
                     <ul className="list-unstyled  text-light">
                       <li>
@@ -107,7 +107,7 @@ function SafetyPolicies() {
                     </ul>
                   </div>
                 </div>
-                <div class="col-12 col-sm-6">
+                <div className="col-12 col-sm-6">
                   <div className="text-start">
                     <ul className="list-unstyled  text-light">
                       <li>
@@ -183,7 +183,7 @@ function SafetyPolicies() {
             <div className="col-md-6 mb-3 d-flex ">
               <div className="p-4 bg-light-subtle text-secondary rounded shadow d-flex flex-column h-100">
                 <h5 className="fw-bold">Administrative Controls</h5>
-                <p className="m-0 flex-grow-1">
+                <div className="m-0 flex-grow-1">
                   <ul className="list-unstyled  ">
                     <li>
                       <strong>1.</strong>Restricted Access: Limiting entry to
@@ -199,13 +199,13 @@ function SafetyPolicies() {
                       intoxicants.
                     </li>
                   </ul>
-                </p>
+                </div>
               </div>
             </div>
             <div className="col-md-6 my-3 d-flex">
               <div className="p-4 bg-light text-secondary rounded shadow d-flex flex-column h-100">
                 <h5 className="fw-bold">Ongoing Safety Practices</h5>
-                <p className="m-0 flex-grow-1">
+                <div className="m-0 flex-grow-1">
                   <ul className="list-unstyled  ">
                     <li>
                       <strong>1.</strong>Training: Regular sessions on statutory
@@ -216,7 +216,7 @@ function SafetyPolicies() {
                       managers and external audits by accredited agencies.
                     </li>
                   </ul>
-                </p>
+                </div>
               </div>
             </div>
           </div>
