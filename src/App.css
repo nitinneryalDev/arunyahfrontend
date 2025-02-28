@@ -24,6 +24,14 @@
   background-color: var(--bs-secondary) !important;
 }
 
+.hover-bg-secondary:hover {
+  background-color: #06077ae6 !important;
+  transition: background-color 0.3s ease-in-out;
+}
+.hover-bg-primary:hover {
+  background-color: #e18132ea !important;
+  transition: background-color 0.3s ease-in-out;
+}
 
 /* Optional: Override Bootstrap classes explicitly */
 .btn-primary {
@@ -76,15 +84,16 @@
 }
 
 
-/* .image_place {
-  max-height: 500px;
-} */
+.image_place {
+  min-height: 300px;
+}
 
 
 .section_third {
-  background-color: rgba(7, 7, 7, 0.616);
+  background-color: rgba(7, 7, 7, 0.071);
   width: 100vw;
-  height: auto;
+  height: 100%;
+  border-radius: 12px;
 
 }
 
@@ -96,6 +105,7 @@
 /* .text-primary {
   color: #042743 !important;
 } */
+
 
 
 
